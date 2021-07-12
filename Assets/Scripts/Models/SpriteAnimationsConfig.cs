@@ -10,7 +10,13 @@ public enum Track
     Fall = 3,
     Inactive = 4,
     PopUp = 5,
-    Hide = 6
+    Hide = 6,
+    Crouch = 7,
+    Crawl = 8,
+    TeleportIn = 9,
+    TeleportOut = 10,
+    HenshinPhaseOne = 11,
+    HenshinPhaseTwo = 12
 }
 
 [CreateAssetMenu(fileName = "SpriteAnimationsConfig", menuName = "Configs/SpriteAnimationsConfig", order = 1)]

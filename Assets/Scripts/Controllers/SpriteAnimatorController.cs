@@ -77,6 +77,22 @@ public class SpriteAnimatorController : IDisposable, IUpdateable
         }
     }
 
+    public bool IsAnimationFinished(SpriteRenderer spriteRenderer)
+    {
+        if(_activeAnimations.TryGetValue(spriteRenderer, out var animation))
+        {
+            if (animation.IsActive)
+                return false;
+        }
+        return true;
+    }
+
+    public bool HasAnimation(Track track)
+    {
+        var sequence = _config.Sequences.Find(sequence => sequence.Track == track);
+        return sequence != null;
+    }
+
     public void Update()
     {
         foreach (var animation in _activeAnimations)
@@ -90,5 +106,4 @@ public class SpriteAnimatorController : IDisposable, IUpdateable
     {
         _activeAnimations.Clear();
     }
-
 }

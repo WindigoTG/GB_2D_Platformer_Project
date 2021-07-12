@@ -1,0 +1,1344 @@
+fileFormatVersion: 2
+guid: cf20d760d95a04a43a6530ade48a3d30
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -454255969212752669
+    second: mmx4__gigadeath_0
+  - first:
+      213: -8004776913506897818
+    second: mmx4__gigadeath_1
+  - first:
+      213: -8147048594728989509
+    second: mmx4__gigadeath_2
+  - first:
+      213: 1195426725391818154
+    second: mmx4__gigadeath_3
+  - first:
+      213: 8628375577722767742
+    second: mmx4__gigadeath_4
+  - first:
+      213: 8197597746696692055
+    second: mmx4__gigadeath_5
+  - first:
+      213: 4565391126516788197
+    second: mmx4__gigadeath_6
+  - first:
+      213: -5541784513222546637
+    second: mmx4__gigadeath_7
+  - first:
+      213: 6794499416179476729
+    second: mmx4__gigadeath_8
+  - first:
+      213: -8233486926521349813
+    second: mmx4__gigadeath_9
+  - first:
+      213: -4961558962165427388
+    second: mmx4__gigadeath_10
+  - first:
+      213: 7483974781690897308
+    second: mmx4__gigadeath_11
+  - first:
+      213: 7242901500172826545
+    second: mmx4__gigadeath_12
+  - first:
+      213: -660634707065361012
+    second: mmx4__gigadeath_13
+  - first:
+      213: -4387154735390113872
+    second: mmx4__gigadeath_14
+  - first:
+      213: -6191045605265057933
+    second: mmx4__gigadeath_15
+  - first:
+      213: 7739065085723142574
+    second: mmx4__gigadeath_16
+  - first:
+      213: 5886328157704204715
+    second: mmx4__gigadeath_17
+  - first:
+      213: -2012995203756706768
+    second: mmx4__gigadeath_18
+  - first:
+      213: -4380752681003947033
+    second: mmx4__gigadeath_19
+  - first:
+      213: -1933757157871689184
+    second: mmx4__gigadeath_20
+  - first:
+      213: -4883269340017201038
+    second: mmx4__gigadeath_21
+  - first:
+      213: -8687926416560808889
+    second: mmx4__gigadeath_22
+  - first:
+      213: 5964001716935809977
+    second: mmx4__gigadeath_23
+  - first:
+      213: -993423097943058496
+    second: mmx4__gigadeath_24
+  - first:
+      213: 4988835141348226360
+    second: mmx4__gigadeath_25
+  - first:
+      213: -9083459900455091468
+    second: mmx4__gigadeath_26
+  - first:
+      213: -5197510546566416444
+    second: mmx4__gigadeath_27
+  - first:
+      213: -5130546402802481745
+    second: mmx4__gigadeath_31
+  - first:
+      213: 8412355080090376135
+    second: mmx4__gigadeath_32
+  - first:
+      213: -4543876195306863748
+    second: mmx4__gigadeath_33
+  - first:
+      213: -4309086950678665526
+    second: mmx4__gigadeath_34
+  - first:
+      213: -7321963870822258304
+    second: mmx4__gigadeath_35
+  - first:
+      213: 4178431866987350483
+    second: mmx4__gigadeath_36
+  - first:
+      213: 6442465811096851977
+    second: mmx4__gigadeath_37
+  - first:
+      213: -7960032710977741619
+    second: mmx4__gigadeath_38
+  - first:
+      213: -4556018272597674949
+    second: mmx4__gigadeath_39
+  - first:
+      213: -684278984738670817
+    second: mmx4__gigadeath_40
+  - first:
+      213: -2683977279788890840
+    second: mmx4__gigadeath_41
+  - first:
+      213: 5516243289415878135
+    second: mmx4__gigadeath_42
+  - first:
+      213: -5666141771915437180
+    second: mmx4__gigadeath_43
+  - first:
+      213: -3222969650695349608
+    second: mmx4__gigadeath_44
+  - first:
+      213: 1181496986636037084
+    second: mmx4__gigadeath_45
+  - first:
+      213: 8039450049004759060
+    second: mmx4__gigadeath_46
+  - first:
+      213: -2422414698741725987
+    second: mmx4__gigadeath_47
+  - first:
+      213: 17090077946960988
+    second: mmx4__gigadeath_48
+  - first:
+      213: 7906776257686064550
+    second: mmx4__gigadeath_49
+  - first:
+      213: -6935906756105890273
+    second: mmx4__gigadeath_50
+  - first:
+      213: 2071360025316967738
+    second: mmx4__gigadeath_51
+  - first:
+      213: 4907620834116738749
+    second: mmx4__gigadeath_52
+  - first:
+      213: 6832620614586958720
+    second: mmx4__gigadeath_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmx4__gigadeath_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 301
+        width: 84
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec19fd4a9822b9f0800000000000000
+      internalID: -454255969212752669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 333
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6607c2ceec159e090800000000000000
+      internalID: -8004776913506897818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 333
+        width: 14
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc455fc77edfee80800000000000000
+      internalID: -8147048594728989509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_3
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 315
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaddcf9e542079010800000000000000
+      internalID: 1195426725391818154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_4
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 315
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7942d27fd52eb770800000000000000
+      internalID: 8628375577722767742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_5
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 314
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7512667c7b7b3c170800000000000000
+      internalID: 8197597746696692055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_6
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 315
+        width: 27
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebe0c48a078b5f30800000000000000
+      internalID: 4565391126516788197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 320
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33beb9bc850a713b0800000000000000
+      internalID: -5541784513222546637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_8
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 320
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f80aff5839ea4e50800000000000000
+      internalID: 6794499416179476729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_9
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 257
+        width: 60
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b494fd16347ccbd80800000000000000
+      internalID: -8233486926521349813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_10
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 282
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44359ff4960052bb0800000000000000
+      internalID: -4961558962165427388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_11
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 282
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93eaa2896b6cd760800000000000000
+      internalID: 7483974781690897308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 282
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b7f1f43a84f38460800000000000000
+      internalID: 7242901500172826545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_13
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 274
+        width: 62
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d231feb34f4d6f0800000000000000
+      internalID: -660634707065361012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_14
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 273
+        width: 63
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf36662302bd13c0800000000000000
+      internalID: -4387154735390113872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_15
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 236
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 377dee5d2dcf41aa0800000000000000
+      internalID: -6191045605265057933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_16
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 236
+        width: 26
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9e72031bea66b60800000000000000
+      internalID: 7739065085723142574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_17
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 236
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba1b657b54070b150800000000000000
+      internalID: 5886328157704204715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_18
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 236
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034348907876014e0800000000000000
+      internalID: -2012995203756706768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_19
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 215
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb6be795a07433c0800000000000000
+      internalID: -4380752681003947033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_20
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 213
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02260334c1ae925e0800000000000000
+      internalID: -1933757157871689184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_21
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 213
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 270f7bd68642b3cb0800000000000000
+      internalID: -4883269340017201038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_22
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 213
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74c192a64f84e6780800000000000000
+      internalID: -8687926416560808889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_23
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 214
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb57c186f364c250800000000000000
+      internalID: 5964001716935809977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_24
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 216
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c79f6fa4f6a632f0800000000000000
+      internalID: -993423097943058496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_25
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 215
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835fb0b0127eb3540800000000000000
+      internalID: 4988835141348226360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_26
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 214
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f28ed5c85111f180800000000000000
+      internalID: -9083459900455091468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_27
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 211
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7ff8b02bbbed7b0800000000000000
+      internalID: -5197510546566416444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_31
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 209
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5cc4dba33acc8b0800000000000000
+      internalID: -5130546402802481745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_32
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 209
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c75d31ff50beb470800000000000000
+      internalID: 8412355080090376135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 182
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c738163cca8e0f0c0800000000000000
+      internalID: -4543876195306863748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_34
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 181
+        width: 32
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac6e686bf3c0334c0800000000000000
+      internalID: -4309086950678665526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_35
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 180
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089256527a8236a90800000000000000
+      internalID: -7321963870822258304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_36
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 178
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d904fd05a5ccf930800000000000000
+      internalID: 4178431866987350483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_37
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 178
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906d604858c386950800000000000000
+      internalID: 6442465811096851977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_38
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 178
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc9ea56c68488190800000000000000
+      internalID: -7960032710977741619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_39
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 178
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3470a71585c5c0c0800000000000000
+      internalID: -4556018272597674949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_40
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 178
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17f26b83e3f086f0800000000000000
+      internalID: -684278984738670817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_41
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 147
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825c6f462e890cad0800000000000000
+      internalID: -2683977279788890840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_42
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 145
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f50440ab02ad8c40800000000000000
+      internalID: 5516243289415878135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_43
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 143
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b5af53412dd51b0800000000000000
+      internalID: -5666141771915437180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_44
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 145
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89a5070cd26b543d0800000000000000
+      internalID: -3222969650695349608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_45
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 141
+        width: 17
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdba2afdf35856010800000000000000
+      internalID: 1181496986636037084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 91
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418ec68893dd19f60800000000000000
+      internalID: 8039450049004759060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_47
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 93
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd480de7aaad16ed0800000000000000
+      internalID: -2422414698741725987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_48
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 93
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c5639d557bc3000800000000000000
+      internalID: 17090077946960988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_49
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 101
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adcedd4d138abd60800000000000000
+      internalID: 7906776257686064550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_50
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 101
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f169317ad85bebf90800000000000000
+      internalID: -6935906756105890273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_51
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 15
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3546fee7f2febc10800000000000000
+      internalID: 2071360025316967738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_52
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 2
+        width: 125
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbe95dd952f5b1440800000000000000
+      internalID: 4907620834116738749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmx4__gigadeath_53
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 2
+        width: 125
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08387798f3852de50800000000000000
+      internalID: 6832620614586958720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
