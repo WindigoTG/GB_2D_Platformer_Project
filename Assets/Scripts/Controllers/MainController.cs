@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class MainController : MonoBehaviour
 {
-    [SerializeField] Transform _testPlayer;
     [SerializeField] Transform _testEnemy;
+    [SerializeField] Transform _testObject;
+    [SerializeField] Transform _testObject2;
 
     List<IUpdateable> _updatables = new List<IUpdateable>();
+
+    PlayerController _playerController;
 
     private void Awake()
     {
@@ -29,18 +32,39 @@ public class MainController : MonoBehaviour
 
     void InitializeUpdatables()
     {
-        SpriteAnimatorController playerAnimatorController = new SpriteAnimatorController(
-                                                                Resources.Load<SpriteAnimationsConfig>("PlayerAnimationsConfig"));
-        _updatables.Add(playerAnimatorController);
-
-        PlaceholderPlayerController playerController = new PlaceholderPlayerController(_testPlayer, playerAnimatorController);
-        _updatables.Add(playerController);
-
         SpriteAnimatorController enemyAnimatorController = new SpriteAnimatorController(
                                                                 Resources.Load<SpriteAnimationsConfig>("MetAnimationsConfig"));
         _updatables.Add(enemyAnimatorController);
 
         PlaceholderEnemyController enemyController = new PlaceholderEnemyController(_testEnemy, enemyAnimatorController);
         _updatables.Add(enemyController);
+
+
+        if (_testObject.gameObject.activeSelf)
+        {
+            SpriteAnimatorController testAnimatorController = new SpriteAnimatorController(
+                                                                    Resources.Load<SpriteAnimationsConfig>("VentAnimationsConfig"));
+            _updatables.Add(testAnimatorController);
+            _testObject.GetComponent<Test>().SetAnimator(testAnimatorController);
+        }
+
+        if (_testObject2.gameObject.activeSelf)
+        {
+            SpriteAnimatorController test2AnimatorController = new SpriteAnimatorController(
+                                                                Resources.Load<SpriteAnimationsConfig>("ModelXAnimationsConfig"));
+            _updatables.Add(test2AnimatorController);
+            _testObject2.GetComponent<Test>().SetAnimator(test2AnimatorController);
+        }
+
+        _playerController = new PlayerController(new PlayerFactory(this));
+        _updatables.Add(_playerController);
+
+        CannonController cannonController = new CannonController(_playerController.PlayerPosition);
+        _updatables.Add(cannonController);
+    }
+
+    public void AddUpdatable(IUpdateable updatable)
+    {
+        _updatables.Add(updatable);
     }
 }
