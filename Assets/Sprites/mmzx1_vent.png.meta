@@ -1,0 +1,4644 @@
+fileFormatVersion: 2
+guid: 611fe5e0ef1414943a8074d646177bc7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8880140079147198429
+    second: mmzx1_vent_0
+  - first:
+      213: 8999934281016637893
+    second: mmzx1_vent_1
+  - first:
+      213: -1356435611324299171
+    second: mmzx1_vent_2
+  - first:
+      213: -7742501761822920013
+    second: mmzx1_vent_3
+  - first:
+      213: 876861828064489230
+    second: mmzx1_vent_4
+  - first:
+      213: 3581351037247524900
+    second: mmzx1_vent_5
+  - first:
+      213: 1942050572199774939
+    second: mmzx1_vent_6
+  - first:
+      213: -6856488385004198755
+    second: mmzx1_vent_7
+  - first:
+      213: -7038094227001866396
+    second: mmzx1_vent_8
+  - first:
+      213: -8514530502760090961
+    second: mmzx1_vent_9
+  - first:
+      213: -2314826676715774836
+    second: mmzx1_vent_10
+  - first:
+      213: -9216519348816585195
+    second: mmzx1_vent_11
+  - first:
+      213: 7165504109079797596
+    second: mmzx1_vent_12
+  - first:
+      213: 1855221889597766450
+    second: mmzx1_vent_13
+  - first:
+      213: 4096418392283532059
+    second: mmzx1_vent_14
+  - first:
+      213: -3338091535864305375
+    second: mmzx1_vent_15
+  - first:
+      213: -8347322682788325819
+    second: mmzx1_vent_16
+  - first:
+      213: 6886129684317422378
+    second: mmzx1_vent_17
+  - first:
+      213: -269915561721685078
+    second: mmzx1_vent_18
+  - first:
+      213: -4187381065823061226
+    second: mmzx1_vent_19
+  - first:
+      213: 2906008136336608473
+    second: mmzx1_vent_20
+  - first:
+      213: 8405603866118817163
+    second: mmzx1_vent_21
+  - first:
+      213: 5243605535013540757
+    second: mmzx1_vent_22
+  - first:
+      213: 6711207854607323278
+    second: mmzx1_vent_23
+  - first:
+      213: 6074261703173744438
+    second: mmzx1_vent_24
+  - first:
+      213: -1919097580740855419
+    second: mmzx1_vent_25
+  - first:
+      213: -401569271238269435
+    second: mmzx1_vent_26
+  - first:
+      213: -4017872385889897668
+    second: mmzx1_vent_27
+  - first:
+      213: -6829846045479955138
+    second: mmzx1_vent_28
+  - first:
+      213: -5075621550923914745
+    second: mmzx1_vent_29
+  - first:
+      213: 213046116577332139
+    second: mmzx1_vent_30
+  - first:
+      213: 9145633179411928506
+    second: mmzx1_vent_31
+  - first:
+      213: 2172929443878409819
+    second: mmzx1_vent_32
+  - first:
+      213: 3804907599754078024
+    second: mmzx1_vent_33
+  - first:
+      213: -8004858548084377327
+    second: mmzx1_vent_34
+  - first:
+      213: 8213762559325991238
+    second: mmzx1_vent_35
+  - first:
+      213: -3217162088330020684
+    second: mmzx1_vent_36
+  - first:
+      213: -1715597480749546114
+    second: mmzx1_vent_37
+  - first:
+      213: 4143018735260141483
+    second: mmzx1_vent_38
+  - first:
+      213: 3256561443807111492
+    second: mmzx1_vent_39
+  - first:
+      213: -7040743653257165952
+    second: mmzx1_vent_40
+  - first:
+      213: 413417531756055810
+    second: mmzx1_vent_41
+  - first:
+      213: -1128656158011483580
+    second: mmzx1_vent_42
+  - first:
+      213: -1788762072919792527
+    second: mmzx1_vent_43
+  - first:
+      213: -5326100865955420183
+    second: mmzx1_vent_44
+  - first:
+      213: 3334184206172851542
+    second: mmzx1_vent_45
+  - first:
+      213: 694638581632019151
+    second: mmzx1_vent_46
+  - first:
+      213: -7679021137034723658
+    second: mmzx1_vent_47
+  - first:
+      213: 9119767758861919083
+    second: mmzx1_vent_48
+  - first:
+      213: -470699726446444203
+    second: mmzx1_vent_49
+  - first:
+      213: 2104935869329338599
+    second: mmzx1_vent_50
+  - first:
+      213: -7581307089849236955
+    second: mmzx1_vent_51
+  - first:
+      213: 8584685242297887695
+    second: mmzx1_vent_52
+  - first:
+      213: -3053749599831529955
+    second: mmzx1_vent_53
+  - first:
+      213: 5121200486812646496
+    second: mmzx1_vent_54
+  - first:
+      213: 7419099405038019500
+    second: mmzx1_vent_55
+  - first:
+      213: -7541284431816075223
+    second: mmzx1_vent_56
+  - first:
+      213: -207377965394353925
+    second: mmzx1_vent_57
+  - first:
+      213: 1537902846735903515
+    second: mmzx1_vent_58
+  - first:
+      213: -990110499882810166
+    second: mmzx1_vent_59
+  - first:
+      213: -4464649273252060170
+    second: mmzx1_vent_60
+  - first:
+      213: -5040258498812049725
+    second: mmzx1_vent_61
+  - first:
+      213: -4753765268040564072
+    second: mmzx1_vent_62
+  - first:
+      213: 8311586070145176964
+    second: mmzx1_vent_63
+  - first:
+      213: 8720658330029496209
+    second: mmzx1_vent_64
+  - first:
+      213: 2200583788496033035
+    second: mmzx1_vent_65
+  - first:
+      213: -7452774004051976066
+    second: mmzx1_vent_66
+  - first:
+      213: -4109222603953294042
+    second: mmzx1_vent_67
+  - first:
+      213: 917526949687094282
+    second: mmzx1_vent_68
+  - first:
+      213: 7837356823858043373
+    second: mmzx1_vent_69
+  - first:
+      213: 5925419244125966897
+    second: mmzx1_vent_70
+  - first:
+      213: -521134384236727586
+    second: mmzx1_vent_71
+  - first:
+      213: -4496257011925063081
+    second: mmzx1_vent_72
+  - first:
+      213: -1563117680014563343
+    second: mmzx1_vent_73
+  - first:
+      213: -4586062765972997477
+    second: mmzx1_vent_74
+  - first:
+      213: 6288681304357525883
+    second: mmzx1_vent_75
+  - first:
+      213: 184497199468791190
+    second: mmzx1_vent_76
+  - first:
+      213: -4840946057292931543
+    second: mmzx1_vent_77
+  - first:
+      213: 9048575733861415533
+    second: mmzx1_vent_78
+  - first:
+      213: -5639636918190577214
+    second: mmzx1_vent_79
+  - first:
+      213: -6865781115596724531
+    second: mmzx1_vent_80
+  - first:
+      213: 82413395940028951
+    second: mmzx1_vent_81
+  - first:
+      213: 8901285324291195758
+    second: mmzx1_vent_82
+  - first:
+      213: -8508350429982626952
+    second: mmzx1_vent_83
+  - first:
+      213: 5269902184763958248
+    second: mmzx1_vent_84
+  - first:
+      213: -4398233347344753088
+    second: mmzx1_vent_85
+  - first:
+      213: -896310027516100565
+    second: mmzx1_vent_86
+  - first:
+      213: -6313693283548280477
+    second: mmzx1_vent_87
+  - first:
+      213: 6229833065979829733
+    second: mmzx1_vent_88
+  - first:
+      213: 6155876331804671581
+    second: mmzx1_vent_89
+  - first:
+      213: 7627098033426064317
+    second: mmzx1_vent_90
+  - first:
+      213: 5951020093000832426
+    second: mmzx1_vent_91
+  - first:
+      213: -2133213501793342509
+    second: mmzx1_vent_92
+  - first:
+      213: 8896780428848068217
+    second: mmzx1_vent_93
+  - first:
+      213: 8018439661760180861
+    second: mmzx1_vent_94
+  - first:
+      213: 6438777234161590549
+    second: mmzx1_vent_95
+  - first:
+      213: -3883012041491132041
+    second: mmzx1_vent_96
+  - first:
+      213: 4301362861307407777
+    second: mmzx1_vent_97
+  - first:
+      213: -5961767829183991675
+    second: mmzx1_vent_98
+  - first:
+      213: -5976270917114519315
+    second: mmzx1_vent_99
+  - first:
+      213: -3758221307231998055
+    second: mmzx1_vent_100
+  - first:
+      213: 3412367334365016196
+    second: mmzx1_vent_101
+  - first:
+      213: 1543362793641158887
+    second: mmzx1_vent_102
+  - first:
+      213: -5067249191515633945
+    second: mmzx1_vent_103
+  - first:
+      213: -6794779301846070774
+    second: mmzx1_vent_104
+  - first:
+      213: 8277418352749416021
+    second: mmzx1_vent_105
+  - first:
+      213: -2380407172848345827
+    second: mmzx1_vent_106
+  - first:
+      213: 7849873455847326871
+    second: mmzx1_vent_107
+  - first:
+      213: 4155212624880885990
+    second: mmzx1_vent_108
+  - first:
+      213: -8688624400944101734
+    second: mmzx1_vent_109
+  - first:
+      213: 3039848086183127477
+    second: mmzx1_vent_110
+  - first:
+      213: -8756787736536181231
+    second: mmzx1_vent_111
+  - first:
+      213: -4098833517115494146
+    second: mmzx1_vent_112
+  - first:
+      213: 9025824630509577916
+    second: mmzx1_vent_113
+  - first:
+      213: 5951477181642376741
+    second: mmzx1_vent_114
+  - first:
+      213: -8407995043470653228
+    second: mmzx1_vent_115
+  - first:
+      213: 7461405378456422141
+    second: mmzx1_vent_116
+  - first:
+      213: 9037878724106544487
+    second: mmzx1_vent_117
+  - first:
+      213: -8259806216222081791
+    second: mmzx1_vent_118
+  - first:
+      213: 6973609800808844042
+    second: mmzx1_vent_119
+  - first:
+      213: 6662726539948983625
+    second: mmzx1_vent_120
+  - first:
+      213: -715241097491866997
+    second: mmzx1_vent_121
+  - first:
+      213: -3093171380054648334
+    second: mmzx1_vent_122
+  - first:
+      213: -1381715358066493615
+    second: mmzx1_vent_123
+  - first:
+      213: -5057424298898649353
+    second: mmzx1_vent_124
+  - first:
+      213: -6079091821466909542
+    second: mmzx1_vent_125
+  - first:
+      213: -6135512641946134064
+    second: mmzx1_vent_126
+  - first:
+      213: 5345351327039967580
+    second: mmzx1_vent_127
+  - first:
+      213: -8460192313201967521
+    second: mmzx1_vent_128
+  - first:
+      213: 1024993813769375509
+    second: mmzx1_vent_129
+  - first:
+      213: 5312348506607050874
+    second: mmzx1_vent_130
+  - first:
+      213: 8454323281547128058
+    second: mmzx1_vent_131
+  - first:
+      213: -4762560309090755048
+    second: mmzx1_vent_132
+  - first:
+      213: 95428620638642248
+    second: mmzx1_vent_133
+  - first:
+      213: 305098739769682444
+    second: mmzx1_vent_134
+  - first:
+      213: -3561283946646801492
+    second: mmzx1_vent_135
+  - first:
+      213: -6822258862262920987
+    second: mmzx1_vent_136
+  - first:
+      213: 4196118094639469332
+    second: mmzx1_vent_137
+  - first:
+      213: -6822211546999910432
+    second: mmzx1_vent_138
+  - first:
+      213: -6675937013858853047
+    second: mmzx1_vent_139
+  - first:
+      213: -2281689442152267236
+    second: mmzx1_vent_140
+  - first:
+      213: -1127617533719977450
+    second: mmzx1_vent_141
+  - first:
+      213: -5318272980343594184
+    second: mmzx1_vent_142
+  - first:
+      213: -7511069344363701032
+    second: mmzx1_vent_143
+  - first:
+      213: -7111270334486406350
+    second: mmzx1_vent_144
+  - first:
+      213: 7557715949749696298
+    second: mmzx1_vent_145
+  - first:
+      213: -2646518003512942517
+    second: mmzx1_vent_146
+  - first:
+      213: 1993340881494584684
+    second: mmzx1_vent_147
+  - first:
+      213: -8170511518855961498
+    second: mmzx1_vent_148
+  - first:
+      213: -7009989937571728625
+    second: mmzx1_vent_149
+  - first:
+      213: -6138633223292983611
+    second: mmzx1_vent_150
+  - first:
+      213: 8783188755189427953
+    second: mmzx1_vent_151
+  - first:
+      213: 3641205063542715986
+    second: mmzx1_vent_152
+  - first:
+      213: -8521752730865202069
+    second: mmzx1_vent_153
+  - first:
+      213: -3236564851842860237
+    second: mmzx1_vent_154
+  - first:
+      213: -5657191809769654832
+    second: mmzx1_vent_155
+  - first:
+      213: 3637707482402235925
+    second: mmzx1_vent_156
+  - first:
+      213: 6664552789543848752
+    second: mmzx1_vent_157
+  - first:
+      213: 3958404544217777555
+    second: mmzx1_vent_158
+  - first:
+      213: 19952308702248974
+    second: mmzx1_vent_159
+  - first:
+      213: 1709917877627731844
+    second: mmzx1_vent_160
+  - first:
+      213: 2029647114369260200
+    second: mmzx1_vent_161
+  - first:
+      213: 7126298712525066179
+    second: mmzx1_vent_162
+  - first:
+      213: -7911372764244017768
+    second: mmzx1_vent_163
+  - first:
+      213: -8950021740376814539
+    second: mmzx1_vent_164
+  - first:
+      213: -2854004491517067983
+    second: mmzx1_vent_165
+  - first:
+      213: -4696050417675552690
+    second: mmzx1_vent_166
+  - first:
+      213: -1318237774993210791
+    second: mmzx1_vent_167
+  - first:
+      213: -3538587987356396672
+    second: mmzx1_vent_168
+  - first:
+      213: 6994950863907956263
+    second: mmzx1_vent_169
+  - first:
+      213: 4825304674183616859
+    second: mmzx1_vent_170
+  - first:
+      213: 3867069080116659176
+    second: mmzx1_vent_171
+  - first:
+      213: 123760886755599536
+    second: mmzx1_vent_172
+  - first:
+      213: -5291191347682360739
+    second: mmzx1_vent_173
+  - first:
+      213: -8888816519424663634
+    second: mmzx1_vent_174
+  - first:
+      213: 882343627216371325
+    second: mmzx1_vent_175
+  - first:
+      213: -3513272619828386093
+    second: mmzx1_vent_176
+  - first:
+      213: 7163914871888464870
+    second: mmzx1_vent_177
+  - first:
+      213: 2509644048685705573
+    second: mmzx1_vent_178
+  - first:
+      213: -2972482223706731778
+    second: mmzx1_vent_179
+  - first:
+      213: -5548407625027337696
+    second: mmzx1_vent_180
+  - first:
+      213: -1102280865803577879
+    second: mmzx1_vent_181
+  - first:
+      213: -5199005361180563629
+    second: mmzx1_vent_182
+  - first:
+      213: -780559658690477236
+    second: mmzx1_vent_183
+  - first:
+      213: 6203988049813826318
+    second: mmzx1_vent_184
+  - first:
+      213: 1645282323978823204
+    second: mmzx1_vent_185
+  - first:
+      213: 943656487651004853
+    second: mmzx1_vent_186
+  - first:
+      213: 1583221063109637709
+    second: mmzx1_vent_187
+  - first:
+      213: 3405803221641525603
+    second: mmzx1_vent_188
+  - first:
+      213: 6568884433748529140
+    second: mmzx1_vent_189
+  - first:
+      213: -7806037842861323919
+    second: mmzx1_vent_190
+  - first:
+      213: -990157897844985917
+    second: mmzx1_vent_191
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmzx1_vent_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 1108
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7274d5a589c3b70800000000000000
+      internalID: 8880140079147198429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_1
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1108
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c97bdd7b8036ec70800000000000000
+      internalID: 8999934281016637893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 1108
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d58435a8ff8fc2de0800000000000000
+      internalID: -1356435611324299171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 1108
+        width: 24
+        height: 40
+      alignment: 9
+      pivot: {x: 0.4166673, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b275bd4bab1d8490800000000000000
+      internalID: -7742501761822920013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_4
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1108
+        width: 26
+        height: 40
+      alignment: 9
+      pivot: {x: 0.46000084, y: 0.475}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0f22e2df2d3b2c00800000000000000
+      internalID: 876861828064489230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_5
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1108
+        width: 29
+        height: 38
+      alignment: 9
+      pivot: {x: 0.48206988, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4209d172bc383b130800000000000000
+      internalID: 3581351037247524900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_6
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1108
+        width: 31
+        height: 38
+      alignment: 9
+      pivot: {x: 0.48451677, y: 0.50052685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdacfcbb4bc83fa10800000000000000
+      internalID: 1942050572199774939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_7
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1108
+        width: 31
+        height: 37
+      alignment: 9
+      pivot: {x: 0.48322713, y: 0.5140546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94ab3d142cd8d0a0800000000000000
+      internalID: -6856488385004198755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1108
+        width: 31
+        height: 38
+      alignment: 9
+      pivot: {x: 0.44985077, y: 0.5007549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46783d7079aa35e90800000000000000
+      internalID: -7038094227001866396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_9
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 1108
+        width: 31
+        height: 38
+      alignment: 9
+      pivot: {x: 0.4517084, y: 0.5007549}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa2b1c1ae9f46d980800000000000000
+      internalID: -8514530502760090961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_10
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1108
+        width: 31
+        height: 39
+      alignment: 9
+      pivot: {x: 0.45170742, y: 0.48892602}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8c12c9e66510efd0800000000000000
+      internalID: -2314826676715774836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_11
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1063
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ed544cb78581080800000000000000
+      internalID: -9216519348816585195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_12
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 1064
+        width: 40
+        height: 35
+      alignment: 9
+      pivot: {x: 0.47477132, y: 0.51486814}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f9d42d50cf07360800000000000000
+      internalID: 7165504109079797596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_13
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1064
+        width: 32
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4684639, y: 0.5280331}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bf00daa721fb910800000000000000
+      internalID: 1855221889597766450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_14
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1064
+        width: 25
+        height: 33
+      alignment: 9
+      pivot: {x: 0.51900756, y: 0.5423806}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1bcf63f2d669d830800000000000000
+      internalID: 4096418392283532059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_15
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 1064
+        width: 29
+        height: 35
+      alignment: 9
+      pivot: {x: 0.5161301, y: 0.5140974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129e1112f67bca1d0800000000000000
+      internalID: -3338091535864305375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_16
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 1064
+        width: 36
+        height: 34
+      alignment: 9
+      pivot: {x: 0.4728741, y: 0.49982408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54657dafe3a582c80800000000000000
+      internalID: -8347322682788325819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_17
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 1064
+        width: 34
+        height: 36
+      alignment: 9
+      pivot: {x: 0.49912217, y: 0.5276591}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23430fa672709f50800000000000000
+      internalID: 6886129684317422378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_18
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1064
+        width: 30
+        height: 35
+      alignment: 9
+      pivot: {x: 0.56502175, y: 0.54295826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab9a380a31114cf0800000000000000
+      internalID: -269915561721685078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_19
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 1064
+        width: 23
+        height: 34
+      alignment: 9
+      pivot: {x: 0.6081941, y: 0.558723}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b7b683b1f63e5c0800000000000000
+      internalID: -4187381065823061226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_20
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1064
+        width: 30
+        height: 36
+      alignment: 9
+      pivot: {x: 0.4317983, y: 0.52815413}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc0db8d007345820800000000000000
+      internalID: 2906008136336608473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_21
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1064
+        width: 36
+        height: 33
+      alignment: 9
+      pivot: {x: 0.38822174, y: 0.48550323}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8589a27e24b6a470800000000000000
+      internalID: 8405603866118817163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_22
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1015
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59311c8c37705c840800000000000000
+      internalID: 5243605535013540757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_23
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 1015
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e805eab7cfff22d50800000000000000
+      internalID: 6711207854607323278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_24
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1015
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6372e6216dc1c4450800000000000000
+      internalID: 6074261703173744438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_25
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1015
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58931aa0beefd55e0800000000000000
+      internalID: -1919097580740855419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_26
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1015
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506612b10e65d6af0800000000000000
+      internalID: -401569271238269435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_27
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 1015
+        width: 43
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c337e264a56ad38c0800000000000000
+      internalID: -4017872385889897668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 1015
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e359f8c25338731a0800000000000000
+      internalID: -6829846045479955138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_29
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 1015
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702ecda5715cf89b0800000000000000
+      internalID: -5075621550923914745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_30
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1015
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bab4e537054e4f200800000000000000
+      internalID: 213046116577332139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_31
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 1015
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab5dfd8cbe0dbee70800000000000000
+      internalID: 9145633179411928506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_32
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 1015
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b561c5801dbc72e10800000000000000
+      internalID: 2172929443878409819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_33
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1015
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 847a68e7d4fbdc430800000000000000
+      internalID: 3804907599754078024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 960
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1197e24ef8709e090800000000000000
+      internalID: -8004858548084377327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_35
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 962
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641770287852df170800000000000000
+      internalID: 8213762559325991238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_36
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 962
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b83c3c30285a53d0800000000000000
+      internalID: -3217162088330020684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_37
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 962
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e754e5e4e29f038e0800000000000000
+      internalID: -1715597480749546114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_38
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 962
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba708fcc695fe7930800000000000000
+      internalID: 4143018735260141483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_39
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 962
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4492b5f0161a13d20800000000000000
+      internalID: 3256561443807111492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_40
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 962
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083450963f04a4e90800000000000000
+      internalID: -7040743653257165952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_41
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 960
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d0d340e01ccb500800000000000000
+      internalID: 413417531756055810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_42
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 960
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a1b2444353650f0800000000000000
+      internalID: -1128656158011483580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_43
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 959
+        width: 31
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 174ace73f5a0d27e0800000000000000
+      internalID: -1788762072919792527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_44
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 900
+        width: 28
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e7a3d63b73e516b0800000000000000
+      internalID: -5326100865955420183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_45
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 900
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d86a8ced6654e20800000000000000
+      internalID: 3334184206172851542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_46
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 900
+        width: 23
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca25711c1ad3a900800000000000000
+      internalID: 694638581632019151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_47
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 900
+        width: 26
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be345806f2ae6590800000000000000
+      internalID: -7679021137034723658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_48
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 900
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b636605457cef8e70800000000000000
+      internalID: 9119767758861919083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_49
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 900
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5514949b71db779f0800000000000000
+      internalID: -470699726446444203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_50
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 900
+        width: 27
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e07a5e450c363d10800000000000000
+      internalID: 2104935869329338599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_51
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 900
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522c2688e59c9c690800000000000000
+      internalID: -7581307089849236955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_52
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 900
+        width: 21
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb24b78ebde22770800000000000000
+      internalID: 8584685242297887695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_53
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 900
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16ec0d1be6ee95d0800000000000000
+      internalID: -3053749599831529955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_54
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 847
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c7600a5b8221740800000000000000
+      internalID: 5121200486812646496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 847
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca36a9ec99fe5f660800000000000000
+      internalID: 7419099405038019500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_56
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 847
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9285b63c3c9f75790800000000000000
+      internalID: -7541284431816075223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_57
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 847
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf02d66d6de3f1df0800000000000000
+      internalID: -207377965394353925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_58
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 847
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b61cead7ab75510800000000000000
+      internalID: 1537902846735903515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_59
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 846
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4c9160fbb6242f0800000000000000
+      internalID: -990110499882810166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_60
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 845
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3ea1504216a02c0800000000000000
+      internalID: -4464649273252060170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_61
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 844
+        width: 34
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c60a2a89976d0ab0800000000000000
+      internalID: -5040258498812049725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_62
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 794
+        width: 28
+        height: 35
+      alignment: 9
+      pivot: {x: 0.50000054, y: 0.5417149}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8924adcdcab370eb0800000000000000
+      internalID: -4753765268040564072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_63
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 794
+        width: 25
+        height: 34
+      alignment: 9
+      pivot: {x: 0.36080077, y: 0.55823654}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485961f7e7fa85370800000000000000
+      internalID: 8311586070145176964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_64
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 794
+        width: 24
+        height: 33
+      alignment: 9
+      pivot: {x: 0.33250108, y: 0.5769709}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19795f01c80060970800000000000000
+      internalID: 8720658330029496209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_65
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 794
+        width: 40
+        height: 38
+      alignment: 9
+      pivot: {x: 0.626001, y: 0.49947476}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b051ac3eb4b0a8e10800000000000000
+      internalID: 2200583788496033035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_66
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 794
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.60473794, y: 0.50052685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e706731a78d629890800000000000000
+      internalID: -7452774004051976066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_67
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 794
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625bb5430db19f6c0800000000000000
+      internalID: -4109222603953294042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_68
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 734
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6047371, y: 0.50052685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0c62f346e5bbbc00800000000000000
+      internalID: 917526949687094282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 734
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6047371, y: 0.50105363}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9da08d182e3cc60800000000000000
+      internalID: 7837356823858043373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 734
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.6021058, y: 0.49473813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132546788615b3250800000000000000
+      internalID: 5925419244125966897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_71
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 735
+        width: 38
+        height: 40
+      alignment: 9
+      pivot: {x: 0.5984216, y: 0.47400054}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2f353e90f84c8f0800000000000000
+      internalID: -521134384236727586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_72
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 736
+        width: 41
+        height: 44
+      alignment: 9
+      pivot: {x: 0.55756134, y: 0.4309096}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75ae851e1161a91c0800000000000000
+      internalID: -4496257011925063081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_73
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 737
+        width: 47
+        height: 47
+      alignment: 9
+      pivot: {x: 0.5490963, y: 0.3839371}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7699470c0be4ae0800000000000000
+      internalID: -1563117680014563343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_74
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 737
+        width: 37
+        height: 38
+      alignment: 9
+      pivot: {x: 0.61692685, y: 0.49620458}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9ab88c56380b50c0800000000000000
+      internalID: -4586062765972997477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_75
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 694
+        width: 56
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b79ded3d352e54750800000000000000
+      internalID: 6288681304357525883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_76
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 698
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6954464b9377f8200800000000000000
+      internalID: 184497199468791190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_77
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 695
+        width: 37
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e1a36953181dcb0800000000000000
+      internalID: -4840946057292931543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_78
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 672
+        width: 15
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6a770440bff29d70800000000000000
+      internalID: 9048575733861415533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_79
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 699
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9621d5a1cfbb1b0800000000000000
+      internalID: -5639636918190577214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_80
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 673
+        width: 15
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc6a54ba378d7b0a0800000000000000
+      internalID: -6865781115596724531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_81
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 676
+        width: 15
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7123db50c8ac42100800000000000000
+      internalID: 82413395940028951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_82
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 676
+        width: 15
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6346c667d7b78b70800000000000000
+      internalID: 8901285324291195758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_83
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 621
+        width: 22
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87be754fc544ce980800000000000000
+      internalID: -8508350429982626952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_84
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 621
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e329ebad14722940800000000000000
+      internalID: 5269902184763958248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_85
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 621
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e1d3cc21656f2c0800000000000000
+      internalID: -4398233347344753088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_86
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 621
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b20484167caaf83f0800000000000000
+      internalID: -896310027516100565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_87
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 621
+        width: 29
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369c555f8614168a0800000000000000
+      internalID: -6313693283548280477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_88
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 620
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edd5bb9a20d47650800000000000000
+      internalID: 6229833065979829733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_89
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 620
+        width: 33
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5eb37698e01e6550800000000000000
+      internalID: 6155876331804671581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_90
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 618
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db3e0755045e8d960800000000000000
+      internalID: 7627098033426064317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_91
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 564
+        width: 24
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa5d686ae35469250800000000000000
+      internalID: 5951020093000832426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_92
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 564
+        width: 25
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db6a835f9d4562e0800000000000000
+      internalID: -2133213501793342509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_93
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 564
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 976f222b9a6b77b70800000000000000
+      internalID: 8896780428848068217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_94
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 565
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d727e1c8368374f60800000000000000
+      internalID: 8018439661760180861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_95
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 565
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511e216c7c12b5950800000000000000
+      internalID: 6438777234161590549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_96
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 565
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7715b501f15cc1ac0800000000000000
+      internalID: -3883012041491132041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_97
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 506
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad29469bb281bb30800000000000000
+      internalID: 4301362861307407777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_98
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 506
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580f2240fbb834da0800000000000000
+      internalID: -5961767829183991675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 506
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de024e7b345001da0800000000000000
+      internalID: -5976270917114519315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_100
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 506
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fe12b02ad18dbc0800000000000000
+      internalID: -3758221307231998055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_101
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 505
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48039f7d20a2b5f20800000000000000
+      internalID: 3412367334365016196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_102
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 505
+        width: 37
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e82982a8402b6510800000000000000
+      internalID: 1543362793641158887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_103
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 505
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6435f25b38da9b0800000000000000
+      internalID: -5067249191515633945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_104
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 445
+        width: 37
+        height: 38
+      alignment: 9
+      pivot: {x: 0.61783826, y: 0.49736825}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0ac94aa93814b1a0800000000000000
+      internalID: -6794779301846070774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 442
+        width: 43
+        height: 44
+      alignment: 9
+      pivot: {x: 0.6041863, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55e8decd22c4fd270800000000000000
+      internalID: 8277418352749416021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_106
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 442
+        width: 42
+        height: 42
+      alignment: 9
+      pivot: {x: 0.5947625, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d1599c94817fed0800000000000000
+      internalID: -2380407172848345827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_107
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 443
+        width: 40
+        height: 40
+      alignment: 9
+      pivot: {x: 0.60000074, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7944c83515a50fc60800000000000000
+      internalID: 7849873455847326871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_108
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 443
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.60526395, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e06e38fdd74aa930800000000000000
+      internalID: 4155212624880885990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_109
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 443
+        width: 38
+        height: 38
+      alignment: 9
+      pivot: {x: 0.60473794, y: 0.500526}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a968fe2442ecb6780800000000000000
+      internalID: -8688624400944101734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_110
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 443
+        width: 34
+        height: 38
+      alignment: 9
+      pivot: {x: 0.5882362, y: 0.49947396}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9a8148ab5bf2a20800000000000000
+      internalID: 3039848086183127477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_111
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 387
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1169346f2f3a97680800000000000000
+      internalID: -8756787736536181231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_112
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 384
+        width: 37
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef0bddaf1a40e17c0800000000000000
+      internalID: -4098833517115494146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_113
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 384
+        width: 35
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6ae7a3eab224d70800000000000000
+      internalID: 9025824630509577916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_114
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 384
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52603a4e6f4e79250800000000000000
+      internalID: 5951477181642376741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_115
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 384
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8cfa03e0dc05b80800000000000000
+      internalID: -8407995043470653228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_116
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 384
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df68514d8ac3c8760800000000000000
+      internalID: 7461405378456422141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_117
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 384
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7656e6990defc6d70800000000000000
+      internalID: 9037878724106544487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_118
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 344
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10df48832064f5d80800000000000000
+      internalID: -8259806216222081791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_119
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 344
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0bc4638a2d37c060800000000000000
+      internalID: 6973609800808844042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_120
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 344
+        width: 41
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9450a39cc72c67c50800000000000000
+      internalID: 6662726539948983625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_121
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 343
+        width: 41
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a9c37e204f216f0800000000000000
+      internalID: -715241097491866997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_122
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 346
+        width: 40
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f91076a409d215d0800000000000000
+      internalID: -3093171380054648334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_123
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 346
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157beb5d33923dce0800000000000000
+      internalID: -1381715358066493615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_124
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 344
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe87b1456b60d9b0800000000000000
+      internalID: -5057424298898649353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_125
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 344
+        width: 33
+        height: 27
+      alignment: 9
+      pivot: {x: 0.30363974, y: 0.70444405}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a948b70623ab2aba0800000000000000
+      internalID: -6079091821466909542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_126
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 345
+        width: 33
+        height: 26
+      alignment: 9
+      pivot: {x: 0.33333427, y: 0.7307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d9d1ed62c74adaa0800000000000000
+      internalID: -6135512641946134064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_127
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 346
+        width: 32
+        height: 25
+      alignment: 9
+      pivot: {x: 0.34437656, y: 0.76}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5151e706b08e2a40800000000000000
+      internalID: 5345351327039967580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_128
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 347
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e3b184aeb579a80800000000000000
+      internalID: -8460192313201967521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_129
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 300
+        width: 28
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f42b66172893e00800000000000000
+      internalID: 1024993813769375509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_130
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 300
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70e36b12d049b940800000000000000
+      internalID: 5312348506607050874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_131
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 300
+        width: 27
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc6eec4b3ac35570800000000000000
+      internalID: 8454323281547128058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_132
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 301
+        width: 29
+        height: 24
+      alignment: 9
+      pivot: {x: 0.3765522, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e554bc1acf7edb0800000000000000
+      internalID: -4762560309090755048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_133
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 301
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.36600086, y: 0.82608694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840629a23d7035100800000000000000
+      internalID: 95428620638642248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_134
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 301
+        width: 30
+        height: 23
+      alignment: 9
+      pivot: {x: 0.3666687, y: 0.8260856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a2465ffadeb3400800000000000000
+      internalID: 305098739769682444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_135
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 301
+        width: 30
+        height: 24
+      alignment: 9
+      pivot: {x: 0.36600035, y: 0.7916667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3f0d77e17c39ec0800000000000000
+      internalID: -3561283946646801492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_136
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 301
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.40740854, y: 0.82608694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8de0de5b77251a0800000000000000
+      internalID: -6822258862262920987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_137
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 301
+        width: 27
+        height: 23
+      alignment: 9
+      pivot: {x: 0.40814888, y: 0.82608694}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4131392dc2b9b3a30800000000000000
+      internalID: 4196118094639469332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_138
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 301
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef808e5eb2a251a0800000000000000
+      internalID: -6822211546999910432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_139
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 301
+        width: 29
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f9f0218ae4a53a0800000000000000
+      internalID: -6675937013858853047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_140
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 237
+        width: 29
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1241c09a8fc550e0800000000000000
+      internalID: -2281689442152267236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_141
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 238
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6126e14d3d5e950f0800000000000000
+      internalID: -1127617533719977450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_142
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 239
+        width: 20
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833ef0cd6e2b136b0800000000000000
+      internalID: -5318272980343594184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_143
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 238
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc10e50a3253c790800000000000000
+      internalID: -7511069344363701032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_144
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 240
+        width: 25
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b1a23de41bf4d90800000000000000
+      internalID: -7111270334486406350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_145
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 238
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2772222d9662e860800000000000000
+      internalID: 7557715949749696298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_146
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 238
+        width: 22
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b406fecc5eda54bd0800000000000000
+      internalID: -2646518003512942517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_147
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 240
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6dafb578f4c9ab10800000000000000
+      internalID: 1993340881494584684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_148
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 241
+        width: 20
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6646a5510138c9e80800000000000000
+      internalID: -8170511518855961498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_149
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 242
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0379f3da4387be90800000000000000
+      internalID: -7009989937571728625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_150
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 241
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c6e5377b913fcaa0800000000000000
+      internalID: -6138633223292983611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_151
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 242
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe654433a724e970800000000000000
+      internalID: 8783188755189427953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_152
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 242
+        width: 22
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25631de96b8288230800000000000000
+      internalID: 3641205063542715986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_153
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 242
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c801d9a07acb980800000000000000
+      internalID: -8521752730865202069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_154
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 182
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33b34615a696513d0800000000000000
+      internalID: -3236564851842860237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_155
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 183
+        width: 30
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d53e68a50e9d71b0800000000000000
+      internalID: -5657191809769654832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_156
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 179
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516ad5d8eabbb7230800000000000000
+      internalID: 3637707482402235925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_157
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 178
+        width: 23
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b8997a37f3d7c50800000000000000
+      internalID: 6664552789543848752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_158
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 178
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395846fd5f31fe630800000000000000
+      internalID: 3958404544217777555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_159
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 178
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0085a0e482e64000800000000000000
+      internalID: 19952308702248974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_160
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 102
+        width: 23
+        height: 41
+      alignment: 9
+      pivot: {x: 0.3913047, y: 0.4629264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f371b0049dab710800000000000000
+      internalID: 1709917877627731844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_161
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 102
+        width: 23
+        height: 41
+      alignment: 9
+      pivot: {x: 0.3913047, y: 0.4629264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa50670c41ca2c10800000000000000
+      internalID: 2029647114369260200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_162
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 102
+        width: 23
+        height: 41
+      alignment: 9
+      pivot: {x: 0.3913047, y: 0.4629264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf416b1ce2b5e260800000000000000
+      internalID: 7126298712525066179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_163
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 102
+        width: 23
+        height: 41
+      alignment: 9
+      pivot: {x: 0.3913047, y: 0.4629264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89df88d1368253290800000000000000
+      internalID: -7911372764244017768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_164
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 100
+        width: 27
+        height: 50
+      alignment: 9
+      pivot: {x: 0.32370448, y: 0.44159958}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c01d875a22bc380800000000000000
+      internalID: -8950021740376814539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_165
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 100
+        width: 28
+        height: 58
+      alignment: 9
+      pivot: {x: 0.35963604, y: 0.41103375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d71cf390a8468d0800000000000000
+      internalID: -2854004491517067983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_166
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 102
+        width: 12
+        height: 54
+      alignment: 9
+      pivot: {x: 0.165006, y: 0.2951834}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48bf1f960744deb0800000000000000
+      internalID: -4696050417675552690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_167
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 101
+        width: 28
+        height: 63
+      alignment: 9
+      pivot: {x: 0.35760227, y: 0.36500815}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952470c5abda4bde0800000000000000
+      internalID: -1318237774993210791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_168
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 101
+        width: 27
+        height: 62
+      alignment: 9
+      pivot: {x: 0.36630362, y: 0.36924264}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083582749f864eec0800000000000000
+      internalID: -3538587987356396672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_169
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 102
+        width: 27
+        height: 64
+      alignment: 9
+      pivot: {x: 0.33111233, y: 0.3903122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726ab88ffbe031160800000000000000
+      internalID: 6994950863907956263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_174
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 40
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf9116787494a480800000000000000
+      internalID: -8888816519424663634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_175
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 40
+        width: 21
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7ebf06aad6be3c00800000000000000
+      internalID: 882343627216371325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_176
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 40
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d6e5089a295e3fc0800000000000000
+      internalID: -3513272619828386093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_177
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 40
+        width: 21
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebcc04be965b6360800000000000000
+      internalID: 7163914871888464870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_178
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 40
+        width: 18
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569a59237fb04d220800000000000000
+      internalID: 2509644048685705573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_179
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 40
+        width: 27
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa0cca9a2f9fb6d0800000000000000
+      internalID: -2972482223706731778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_180
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 39
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0224d2969a81003b0800000000000000
+      internalID: -5548407625027337696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_181
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 39
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e551178469e3b0f0800000000000000
+      internalID: -1102280865803577879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_182
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 41
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3572b756b2c69d7b0800000000000000
+      internalID: -5199005361180563629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_183
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 42
+        width: 23
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4301c14025ea25f0800000000000000
+      internalID: -780559658690477236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_184
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 7
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0bebebd24ef81650800000000000000
+      internalID: 6203988049813826318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_185
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 7
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426acfb7e8735d610800000000000000
+      internalID: 1645282323978823204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_186
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 7
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b15e68639a881d00800000000000000
+      internalID: 943656487651004853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_187
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 7
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46f09b2b2bb8f510800000000000000
+      internalID: 1583221063109637709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_188
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 7
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 369f2d04cf7d34f20800000000000000
+      internalID: 3405803221641525603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_189
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 7
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff8c2cc69d592b50800000000000000
+      internalID: 6568884433748529140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_190
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 104
+        width: 14
+        height: 50
+      alignment: 9
+      pivot: {x: 0.14143154, y: 0.47999954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1798ef8a0f16ba390800000000000000
+      internalID: -7806037842861323919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx1_vent_191
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 136
+        width: 6
+        height: 27
+      alignment: 9
+      pivot: {x: -0.29665628, y: 0.10296235}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cfe66353a04242f0800000000000000
+      internalID: -990157897844985917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
