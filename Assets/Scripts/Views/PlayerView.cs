@@ -7,11 +7,9 @@ public class PlayerView
     protected float _animationSpeed = 7.5f;
     protected Transform _transform;
 
-    //Тут, наверное, получается не совсем правильный момент - вьюшка определяет возможность выполнения определенных действий
-    //в зависимости от того, имеет ли она соответствующие анимации.
-    //То есть вьюшка содерижит часть данных.
     protected bool _canCrouch;
     protected bool _canTeleport;
+    protected bool _canWallCling;
 
     public PlayerView(SpriteAnimatorController animationController, Transform viewTransform)
     {
@@ -21,12 +19,14 @@ public class PlayerView
 
         _canCrouch = _animatorController.HasAnimation(Track.Crouch);
         _canTeleport = _animatorController.HasAnimation(Track.TeleportIn);
+        _canWallCling = _animatorController.HasAnimation(Track.WallCling);
     }
 
     public Transform Transform => _transform;
 
     public bool CanCrouch => _canCrouch;
     public bool CanTeleport => _canTeleport;
+    public bool CanWallCling => _canWallCling;
     public bool IsAnimationDone => _animatorController.IsAnimationFinished(_spriteRenderer);
 
     public virtual void StartIdleAnimation()
@@ -73,14 +73,20 @@ public class PlayerView
 
     public virtual void StartTeleportInAnimation()
     {
-        if (CanTeleport)
+        if (_canTeleport)
             _animatorController.StartAnimation(_spriteRenderer, Track.TeleportIn, false, _animationSpeed);
     }
 
     public virtual void StartTeleportOutAnimation()
     {
-        if (CanTeleport)
+        if (_canTeleport)
             _animatorController.StartAnimation(_spriteRenderer, Track.TeleportOut, false, _animationSpeed);
+    }
+
+    public virtual void StartWallClingAnimation()
+    {
+        if (_canWallCling)
+            _animatorController.StartAnimation(_spriteRenderer, Track.WallCling, false, _animationSpeed);
     }
 
     public void Activate()

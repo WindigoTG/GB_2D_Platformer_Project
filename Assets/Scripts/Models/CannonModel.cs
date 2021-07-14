@@ -3,7 +3,7 @@ using UnityEngine;
 public class CannonModel
 {
     CannonView _cannon;
-    private PlayerPosition _targetPosition;
+    private Transform _targetTransform;
     float _rotationSpeed = 30f;
 
     BulletModel[] _bullets;
@@ -13,14 +13,14 @@ public class CannonModel
     float _fireCoolDown;
     int _currentBullet = 0;
 
-    public CannonModel(PlayerPosition targetPosition)
+    public CannonModel(Transform targetTransform)
     {
         _cannon = new CannonView(
             Object.Instantiate(Resources.Load<GameObject>("Cannon")));
 
         _cannon.SetPosition(new Vector3(0, 2, 0));
 
-        _targetPosition = targetPosition;
+        _targetTransform = targetTransform;
 
         InitializeBullets();
         _fireCoolDown = _fireDelay;
@@ -41,21 +41,11 @@ public class CannonModel
 
             _fireCoolDown = _fireDelay;
         }
-
-        UpdateBullets();
-    }
-
-    private void UpdateBullets()
-    {
-        for (int i = 0; i < _bullets.Length; i++)
-        {
-            _bullets[i].Move();
-        }
     }
 
     private void TrackTarget()
     {
-        var dir = _targetPosition.Position - _cannon.BarrelPosition;
+        var dir = _targetTransform.position - _cannon.BarrelPosition;
         var angle = Vector3.Angle(Vector3.right, dir);
         var axis = Vector3.Cross(Vector3.right, dir);
         _cannon.RotateToward(Quaternion.AngleAxis(angle, axis), _rotationSpeed);
