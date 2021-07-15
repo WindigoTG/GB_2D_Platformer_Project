@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class PlayerModelPhys 
 {
+    #region Fields
     PlayerView _currentForm;
     PlayerView _transformedForm;
     PlayerView _untransformedForm;
@@ -12,13 +13,14 @@ public class PlayerModelPhys
 
     private readonly ContactsPoller _contactsPoller;
 
+    private PlayerHealth _health;
+
     private float _defaultSpeed = 200f;
     private float _currentSpeed;
 
     private const float _inputThreshold = 0.1f;
+    private const float _fallThreshold = -1f;
     private float _jumpForce = 350.0f;
-
-    private const float _spriteOffset = 0f;
 
     private Vector3 _leftScale = new Vector3(-1, 1, 1);
     private Vector3 _rightScale = new Vector3(1, 1, 1);
@@ -29,10 +31,14 @@ public class PlayerModelPhys
     bool _isJumping;
     bool _isFalling;
     bool _isCrouching;
-    bool _isTeleporting;
+    bool _isTeleportingIn;
+    bool _isTeleportingOut;
     bool _isChangingFormPhaseOne;
     bool _isChangingFormPhaseTwo;
     bool _isWallClinging;
+    bool _isHurt;
+    bool _isDead;
+    bool _isAtFinish;
 
     Vector2 _raycastStart;
     Vector2 _raycastEnd;
@@ -45,6 +51,15 @@ public class PlayerModelPhys
                                             //Сначала думал сделать коллайдеры с заранее заданным материалом частью вьюшек каждой
                                             //формы, но поскольку одна из форм умеет приседать, показалось целесообразней сделать
                                             //коллайдер независимый от форм, с изменяемым размером и сменным материалом.
+
+    ContactPoint2D[] _contacts = new ContactPoint2D[16];
+    Vector3 _destination;
+    Vector3 _lastCheckPoint;
+
+    public event System.Action End;
+    #endregion
+
+    public Transform Transform => _player.transform;
 
     public PlayerModelPhys(GameObject player, PlayerView untransformedForm, PlayerView transformedForm)
     {
@@ -72,6 +87,10 @@ public class PlayerModelPhys
         _transformedForm.Transform.localPosition = Vector3.zero;
         _transformedForm.Deactivate();
 
+        _health = new PlayerHealth();
+        _health.Damage += TakeHit;
+        _health.Death += Die;
+
         _contactsPoller = new ContactsPoller(_collider);
 
         _normalMaterial = Resources.Load<PhysicsMaterial2D>("NormalMaterial");
@@ -89,31 +108,53 @@ public class PlayerModelPhys
 
     public void StartAtPosition(Vector3 position)
     {
+        _lastCheckPoint = position;
+
         RaycastHit2D hit = Physics2D.Raycast(position, Vector3.down, Mathf.Infinity, LayerMask.GetMask("Ground"));
 
-        _player.position = new Vector3(position.x, hit.collider.bounds.max.y, 0);
+        _player.transform.position = new Vector3(position.x, hit.collider.bounds.max.y, 0);
+        
         _currentForm.Activate();
 
         if (_currentForm.CanTeleport)
         {
             _currentForm.StartTeleportInAnimation();
-            _isTeleporting = true;
+            _isTeleportingIn = true;
         }
         else
         {
             _isReady = true;
             _currentForm.StartIdleAnimation();
         }
+
+        if (_isDead)
+        {
+            _health.Reset();
+            _isDead = false;
+        }
     }
 
     public void Update()
     {
-        if (_isTeleporting)
+        if (_isTeleportingIn)
             if (_currentForm.IsAnimationDone)
             {
-                _isTeleporting = false;
+                _isTeleportingIn = false;
                 _isReady = true;
                 _currentForm.StartIdleAnimation();
+            }
+        if (_isTeleportingOut)
+            if (_currentForm.IsAnimationDone)
+            {
+                _isTeleportingOut = false;
+                if (_isAtFinish)
+                {
+                    End?.Invoke();
+                }
+                else
+                {
+                    StartAtPosition(_destination);
+                }
             }
 
         if (_isChangingFormPhaseOne && _currentForm.IsAnimationDone)
@@ -121,6 +162,11 @@ public class PlayerModelPhys
 
         if (_isChangingFormPhaseTwo && _currentForm.IsAnimationDone)
             FinishFormChange();
+
+        if (_isHurt && _currentForm.IsAnimationDone)
+        {
+            Recover();
+        }
 
         VerticalCheck();
     }
@@ -259,7 +305,7 @@ public class PlayerModelPhys
     {
         if (_isReady)
         {
-            if (_player.velocity.y < 0 && !_isFalling)
+            if (_player.velocity.y < _fallThreshold && !_isFalling)
             {
                 Fall();
             }
@@ -360,8 +406,93 @@ public class PlayerModelPhys
         _isMoving = false;
         _isCrouching = false;
         _currentSpeed = _defaultSpeed;
-        _player.velocity = _player.velocity.Change(x: 0.0f);
+        _player.velocity = _player.velocity.Change(x: 0.0f, y: 0.0f);
     }
 
-    public Transform Transform => _player.transform;
+    public Transform FindInteractableTeleporter()
+    {
+        if (_isReady && _currentForm.CanTeleport)
+        {
+            if (_contactsPoller.IsGrounded)
+            {
+                System.Array.Clear(_contacts, 0, _contacts.Length);
+                _player.GetContacts(_contacts);
+                for (int i = 0; i < _contacts.Length; i++)
+                    if (_contacts[i].collider != null && _contacts[i].collider.CompareTag("Teleporter"))
+                        return _contacts[i].collider.transform;
+            }
+        }
+        return null;
+    }
+
+    public void TeleportToPosition(Vector3 position)
+    {
+        _destination = position;
+        ResetState();
+        _isReady = false;
+        _isTeleportingOut = true;
+        _currentForm.StartTeleportOutAnimation();
+    }
+
+    private void TakeHit()
+    {
+        if (_isReady)
+        {
+            _isHurt = true;
+            _isReady = false;
+            if (_currentForm.CanCrouch && _isCrouching)
+            {
+                _currentForm.StartHurtCrouchAnimation();
+                _player.velocity = _player.velocity.Change(x: 0.0f);
+                _isMoving = false;
+            }
+            else
+            {
+                _currentForm.StartHurtAnimation();
+                ResetState();
+            }
+        }
+    }
+
+    private void Die()
+    {
+        if (_isReady)
+        {
+            _isReady = false;
+            _isDead = true;
+            ResetState();
+            StartAtPosition(_lastCheckPoint);
+        }
+    }
+
+    private void Recover()
+    {
+        _isReady = true;
+        _isHurt = false;
+        if (_isCrouching)
+            _currentForm.StartCrouchAnimation();
+        else if (!_isGrounded)
+            _currentForm.StartFallAnimation();
+        else
+            _currentForm.StartIdleAnimation();
+    }
+
+    public void SetSpikeController(SpikeController spikeController)
+    {
+        spikeController.Contact += _health.TakeDamage;
+    }
+
+    public void SetCannonController(CannonController cannonController)
+    {
+        cannonController.RegisterTarget(_health);
+    }
+
+    public void Finish()
+    {
+        ResetState();
+        _isReady = false;
+        _isTeleportingOut = true;
+        _currentForm.StartTeleportOutAnimation();
+        _isAtFinish = true;
+    }
 }

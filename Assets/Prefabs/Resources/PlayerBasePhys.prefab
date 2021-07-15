@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 8208116858342372592}
   - component: {fileID: 1040387473819647150}
   - component: {fileID: 1454425816080256275}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: PlayerBasePhys
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -6,6 +6,7 @@ public class BulletView
     Transform _transform;
     TrailRenderer _trail;
     Rigidbody2D _rigidBody;
+    Collider2D _collider;
 
     public BulletView(GameObject bullet) 
     {
@@ -13,10 +14,12 @@ public class BulletView
         _rigidBody = _bullet.GetComponent<Rigidbody2D>();
         _transform = bullet.transform;
         _trail = bullet.GetComponent<TrailRenderer>();
+        _collider = bullet.GetComponent<Collider2D>();
     }
 
     public Transform Transform => _transform;
     public Rigidbody2D RigidBody => _rigidBody;
+    public Collider2D Collider => _collider;
     public bool IsActive => _bullet.activeSelf;
 
     public void Activate()

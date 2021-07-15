@@ -89,6 +89,17 @@ public class PlayerView
             _animatorController.StartAnimation(_spriteRenderer, Track.WallCling, false, _animationSpeed);
     }
 
+    public virtual void StartHurtAnimation()
+    {
+        _animatorController.StartAnimation(_spriteRenderer, Track.TakeHit, false, _animationSpeed);
+    }
+
+    public virtual void StartHurtCrouchAnimation()
+    {
+        if (_canCrouch)
+            _animatorController.StartAnimation(_spriteRenderer, Track.TakeHitCrouch, false, _animationSpeed);
+    }
+
     public void Activate()
     {
         _transform.gameObject.SetActive(true);

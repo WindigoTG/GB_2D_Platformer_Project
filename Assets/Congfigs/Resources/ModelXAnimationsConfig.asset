@@ -73,3 +73,8 @@ MonoBehaviour:
     - {fileID: -784203137059835222, guid: ee2cfd21bae79b24d8fe404663782124, type: 3}
     - {fileID: -8775768245012411184, guid: ee2cfd21bae79b24d8fe404663782124, type: 3}
     - {fileID: -2007200787656959648, guid: ee2cfd21bae79b24d8fe404663782124, type: 3}
+  - Track: 14
+    Sprites:
+    - {fileID: -5191595079022866938, guid: ee2cfd21bae79b24d8fe404663782124, type: 3}
+    - {fileID: -9052412228796962988, guid: ee2cfd21bae79b24d8fe404663782124, type: 3}
+    - {fileID: -9052412228796962988, guid: ee2cfd21bae79b24d8fe404663782124, type: 3}
