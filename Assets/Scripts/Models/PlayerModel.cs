@@ -100,10 +100,10 @@ public class PlayerModel
             VerticalMove();
         }
 
-        CheckForGroung();
+        CheckForGround();
     }
 
-    private void CheckForGroung()
+    private void CheckForGround()
     {
         //В случае если персонаж не совершает прыжок, делаем рейкаст для проверки касается ли он земли
         if (!_isJumping)

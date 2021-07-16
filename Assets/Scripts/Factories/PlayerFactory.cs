@@ -14,6 +14,12 @@ public class PlayerFactory : IPlayerFactory
         return new PlayerModel(CreateUntransformedForm(), CreateTransformedForm());
     }
 
+    public PlayerModelPhys CreatePlayerPhys()
+    {
+        return new PlayerModelPhys(CreatePlayerBase(),
+                                        CreateUntransformedForm(), CreateTransformedForm());
+    }
+
     private PlayerView CreateUntransformedForm()
     {
         SpriteAnimatorController animatorController = new SpriteAnimatorController(
@@ -30,5 +36,10 @@ public class PlayerFactory : IPlayerFactory
         _mainController.AddUpdatable(animatorController);
         Transform transform = Object.Instantiate(Resources.Load<GameObject>("PlayerTransformed")).transform;
         return new TransformedPlayerView(animatorController, transform);
+    }
+
+    private GameObject CreatePlayerBase()
+    {
+        return Object.Instantiate(Resources.Load<GameObject>("PlayerBasePhys"));
     }
 }

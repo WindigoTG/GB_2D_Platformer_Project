@@ -16,7 +16,10 @@ public enum Track
     TeleportIn = 9,
     TeleportOut = 10,
     HenshinPhaseOne = 11,
-    HenshinPhaseTwo = 12
+    HenshinPhaseTwo = 12,
+    WallCling = 13,
+    TakeHit = 14,
+    TakeHitCrouch = 15
 }
 
 [CreateAssetMenu(fileName = "SpriteAnimationsConfig", menuName = "Configs/SpriteAnimationsConfig", order = 1)]
