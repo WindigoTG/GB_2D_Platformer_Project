@@ -34,16 +34,21 @@ public class PlayerControllerPhys : IUpdateable, IUpdatableFixed
 
         if (Input.GetKeyDown(KeyCode.E))
         {
-            if (_crystalCount >= 3)
+            
+            var teleporter = _player.FindInteractableTeleporter();
+            if (teleporter != null)
             {
-                var teleporter = _player.FindInteractableTeleporter();
-                if (teleporter != null)
+                if (_crystalCount >= 3 || TeleporterHandler.Instance.IsTeleporterUnlocked(teleporter))
                 {
                     var destination = TeleporterHandler.Instance.GetDestination(teleporter);
                     if (destination != null)
                     {
+                        if (!TeleporterHandler.Instance.IsTeleporterUnlocked(destination))
+                        {
+                            _crystalCount -= 3;
+                            TeleporterHandler.Instance.Unlock(destination);
+                        }
                         _player.TeleportToPosition(destination.position);
-                        _crystalCount -= 3;
                     }
                 }
             }

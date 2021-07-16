@@ -5,10 +5,12 @@ using UnityEngine;
 public class TeleporterHandler : MonoBehaviour
 {
     [SerializeField] Transform _startTeleporter;
-    [SerializeField] List<TeleporterData> _teleporters;
+    [SerializeField] List<PairedTeleporterData> _teleporters;
     [SerializeField] Transform _finishTeleporter;
 
     private SpriteAnimatorController _animatorController;
+
+    private int _lastTeleporterPair;
 
     public event Action Finish;
 
@@ -54,9 +56,43 @@ public class TeleporterHandler : MonoBehaviour
         {
             var pair = _teleporters[i].GetPair(teleporter);
             if (pair != null)
-                return pair;        }
+            {
+                _lastTeleporterPair = i;
+                return pair;
+            }
+        }
 
         return null;
+    }
+
+    public bool IsTeleporterUnlocked(Transform teleporter)
+    {
+        var pair = _teleporters[_lastTeleporterPair].GetPair(teleporter);
+        if (pair == null)
+            for (int i = 0; i < _teleporters.Count; i++)
+            {
+                pair = _teleporters[i].GetPair(teleporter);
+                if (pair != null)
+                    _lastTeleporterPair = i;
+            }
+        if (pair != null)
+            return _teleporters[_lastTeleporterPair].IsUnlocked;
+        else
+            return false;
+    }
+
+    public void Unlock(Transform teleporter)
+    {
+        var pair = _teleporters[_lastTeleporterPair].GetPair(teleporter);
+        if (pair == null)
+            for (int i = 0; i < _teleporters.Count; i++)
+            {
+                pair = _teleporters[i].GetPair(teleporter);
+                if (pair != null)
+                    _lastTeleporterPair = i;
+            }
+        if (pair != null)
+            _teleporters[_lastTeleporterPair].SetUnlocked();
     }
 
     public Transform GetStart()
