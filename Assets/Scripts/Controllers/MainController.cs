@@ -13,9 +13,11 @@ public class MainController : MonoBehaviour
     [SerializeField] Transform _testObject2;
     [Space]
     [SerializeField] Transform[] _cannonPositions;
+    [Space]
+    [SerializeField] TeleporterData _teleporterData;
 
     List<IUpdateable> _updatables = new List<IUpdateable>();
-    List<IUpdatableFixed> _updatablesFixed = new List<IUpdatableFixed>();
+    List<IUpdateableFixed> _updatablesFixed = new List<IUpdateableFixed>();
 
     PlayerController _playerController;
     PlayerControllerPhys _playerControllerPhys;
@@ -55,7 +57,7 @@ public class MainController : MonoBehaviour
         SpriteAnimatorController teleporterAnimationController = new SpriteAnimatorController(
                                                                 Resources.Load<SpriteAnimationsConfig>("TeleporterAnimationsConfig"));
         _updatables.Add(teleporterAnimationController);
-        TeleporterHandler.Instance.SetAnimationController(teleporterAnimationController);
+        TeleporterHandler teleporterHandler = new TeleporterHandler(_teleporterData ,teleporterAnimationController);
 
         SpriteAnimatorController enemyAnimatorController = new SpriteAnimatorController(
                                                                 Resources.Load<SpriteAnimationsConfig>("MetAnimationsConfig"));
@@ -87,25 +89,30 @@ public class MainController : MonoBehaviour
         //_playerController = new PlayerController(playerFactory);
         //_updatables.Add(_playerController);
 
-        _playerControllerPhys = new PlayerControllerPhys(playerFactory);
+        SpriteAnimatorController platformAnimationController = new SpriteAnimatorController(
+                                                                Resources.Load<SpriteAnimationsConfig>("PlatformAnimationsConfig"));
+        _updatables.Add(platformAnimationController);
+        MovingPlatformController platformController = new MovingPlatformController(platformAnimationController);
+        _updatablesFixed.Add(platformController);
+
+        _playerControllerPhys = new PlayerControllerPhys(playerFactory, teleporterHandler);
         _updatables.Add(_playerControllerPhys);
         _updatablesFixed.Add(_playerControllerPhys);
         crystalController.CrystalCollected += _playerControllerPhys.CollectCrystal;
-        
-        if (_cannonPositions.Length > 0)
-        {
-            CannonController cannonController = new CannonController(_cannonPositions, _playerControllerPhys.PlayerTransform);
-            _updatables.Add(cannonController);
-            _playerControllerPhys.SetCannonController(cannonController);
-        }
 
-        SpikeController spikeController = new SpikeController(_playerControllerPhys.PlayerTransform);
-        _updatables.Add(spikeController);
-        _playerControllerPhys.SetSpikeController(spikeController);
+        CannonController cannonController = new CannonController(_cannonPositions, _playerControllerPhys.PlayerTransform);
+        _updatables.Add(cannonController);
+
+        HazardController hazardController = new HazardController(_playerControllerPhys.PlayerTransform, this);
+        _updatables.Add(hazardController);
+
+        _playerControllerPhys.RegisterHazards(hazardController, cannonController);
 
         FindObjectOfType<CinemachineVirtualCamera>().Follow = _playerControllerPhys.PlayerTransform;
 
         _playerControllerPhys.Player.End += End;
+
+        StartFans();
     }
 
     public void AddUpdatable(IUpdateable updatable)
@@ -120,5 +127,17 @@ public class MainController : MonoBehaviour
         #else
                 Application.Quit();
         #endif
+    }
+
+    private void StartFans()
+    {
+        SpriteAnimatorController fanAnimationController = new SpriteAnimatorController(
+                                                                Resources.Load<SpriteAnimationsConfig>("FanAnimationsConfig"));
+        _updatables.Add(fanAnimationController);
+        var fans = FindObjectsOfType<WindZone>();
+        foreach (var fan in fans)
+        {
+            fanAnimationController.StartAnimation(fan.GetComponent<SpriteRenderer>(), Track.Idle, true, 10);
+        }
     }
 }
