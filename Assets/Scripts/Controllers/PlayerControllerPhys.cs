@@ -1,22 +1,24 @@
 using UnityEngine;
 
-public class PlayerControllerPhys : IUpdateable, IUpdatableFixed
+public class PlayerControllerPhys : IUpdateable, IUpdateableFixed
 {
     PlayerModelPhys _player;
     IPlayerFactory _playerfactory;
+    TeleporterHandler _teleporterHandler;
 
     float _inputHor;
 
     float _crystalCount;
 
-    public PlayerControllerPhys(IPlayerFactory playerfactory)
+    public PlayerControllerPhys(IPlayerFactory playerfactory, TeleporterHandler teleporterHandler)
     {
         _playerfactory = playerfactory;
         _player = _playerfactory.CreatePlayerPhys();
+        _teleporterHandler = teleporterHandler;
 
-        _player.StartAtPosition(TeleporterHandler.Instance.GetStart().position);
+        _player.StartAtPosition(_teleporterHandler.GetStart().position);
 
-        TeleporterHandler.Instance.Finish += GetToFinish;
+        _teleporterHandler.Finish += GetToFinish;
     }
 
     public void Update()
@@ -25,6 +27,9 @@ public class PlayerControllerPhys : IUpdateable, IUpdatableFixed
 
         if (Input.GetMouseButton(1))
             _player.ChangeForm();
+
+        if (Input.GetMouseButton(0))
+            _player.Shoot();
 
         _inputHor = Input.GetAxisRaw("Horizontal");
         _player.Crouch(Input.GetAxisRaw("Vertical"));
@@ -38,15 +43,15 @@ public class PlayerControllerPhys : IUpdateable, IUpdatableFixed
             var teleporter = _player.FindInteractableTeleporter();
             if (teleporter != null)
             {
-                if (_crystalCount >= 3 || TeleporterHandler.Instance.IsTeleporterUnlocked(teleporter))
+                if (_crystalCount >= 3 || _teleporterHandler.IsTeleporterUnlocked(teleporter))
                 {
-                    var destination = TeleporterHandler.Instance.GetDestination(teleporter);
+                    var destination = _teleporterHandler.GetDestination(teleporter);
                     if (destination != null)
                     {
-                        if (!TeleporterHandler.Instance.IsTeleporterUnlocked(destination))
+                        if (!_teleporterHandler.IsTeleporterUnlocked(destination))
                         {
                             _crystalCount -= 3;
-                            TeleporterHandler.Instance.Unlock(destination);
+                            _teleporterHandler.Unlock(destination);
                         }
                         _player.TeleportToPosition(destination.position);
                     }
@@ -65,14 +70,9 @@ public class PlayerControllerPhys : IUpdateable, IUpdatableFixed
         _crystalCount++;
     }
 
-    public void SetSpikeController(SpikeController spikeController)
+    public void RegisterHazards(HazardController hazardController, CannonController cannonController)
     {
-        _player.SetSpikeController(spikeController);
-    }
-
-    public void SetCannonController(CannonController cannonController)
-    {
-        _player.SetCannonController(cannonController);
+        _player.RegisterHazards(hazardController, cannonController);
     }
 
     private void GetToFinish()

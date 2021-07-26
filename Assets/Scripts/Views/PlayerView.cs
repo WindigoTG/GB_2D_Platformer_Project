@@ -10,6 +10,7 @@ public class PlayerView
     protected bool _canCrouch;
     protected bool _canTeleport;
     protected bool _canWallCling;
+    protected bool _canShoot;
 
     public PlayerView(SpriteAnimatorController animationController, Transform viewTransform)
     {
@@ -17,9 +18,12 @@ public class PlayerView
         _animatorController = animationController;
         _spriteRenderer = _transform.GetComponent<SpriteRenderer>();
 
-        _canCrouch = _animatorController.HasAnimation(Track.Crouch);
-        _canTeleport = _animatorController.HasAnimation(Track.TeleportIn);
+        _canCrouch = (_animatorController.HasAnimation(Track.Crouch) && _animatorController.HasAnimation(Track.Crawl));
+        _canTeleport = (_animatorController.HasAnimation(Track.TeleportIn) && _animatorController.HasAnimation(Track.TeleportOut));
         _canWallCling = _animatorController.HasAnimation(Track.WallCling);
+        _canShoot = (_animatorController.HasAnimation(Track.ShootStand) &&
+                    _animatorController.HasAnimation(Track.ShootRun) &&
+                    _animatorController.HasAnimation(Track.ShootJump));
     }
 
     public Transform Transform => _transform;
@@ -27,6 +31,7 @@ public class PlayerView
     public bool CanCrouch => _canCrouch;
     public bool CanTeleport => _canTeleport;
     public bool CanWallCling => _canWallCling;
+    public bool CanShoot => _canShoot;
     public bool IsAnimationDone => _animatorController.IsAnimationFinished(_spriteRenderer);
 
     public virtual void StartIdleAnimation()
@@ -98,6 +103,24 @@ public class PlayerView
     {
         if (_canCrouch)
             _animatorController.StartAnimation(_spriteRenderer, Track.TakeHitCrouch, false, _animationSpeed);
+    }
+
+    public virtual void StartShootStandAnimation()
+    {
+        if (_canShoot)
+            _animatorController.StartAnimation(_spriteRenderer, Track.ShootStand, false, _animationSpeed);
+    }
+
+    public virtual void StartShootRunAnimation()
+    {
+        if (_canShoot)
+            _animatorController.StartAnimation(_spriteRenderer, Track.ShootRun, true, _animationSpeed);
+    }
+
+    public virtual void StartShootJumpAnimation()
+    {
+        if (_canShoot)
+            _animatorController.StartAnimation(_spriteRenderer, Track.ShootJump, false, _animationSpeed);
     }
 
     public void Activate()

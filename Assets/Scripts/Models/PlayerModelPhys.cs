@@ -8,12 +8,13 @@ public class PlayerModelPhys
     PlayerView _untransformedForm;
 
     Rigidbody2D _player;
-    Collider2D _collider;           //»меем композитный коллайдер, представл€ющий полную высоту персонажа
-    Collider2D _colliderStand;      //¬ерхн€€ часть композитного коллайдера, отключаетс€ дл€ получени€ высоты сид€щего персонажа
+    Collider2D _collider;           
+    Collider2D _colliderStand;
 
     private readonly ContactsPoller _contactsPoller;
 
     private PlayerHealth _health;
+    private PlayerWeapon _weapon;
 
     private float _defaultSpeed = 200f;
     private float _currentSpeed;
@@ -39,6 +40,10 @@ public class PlayerModelPhys
     bool _isHurt;
     bool _isDead;
     bool _isAtFinish;
+    bool _isShooting;
+
+    float _shootingCD = 0.3f;
+    float _currentShootingCD;
 
     Vector2 _raycastStart;
     Vector2 _raycastEnd;
@@ -96,6 +101,8 @@ public class PlayerModelPhys
         _normalMaterial = Resources.Load<PhysicsMaterial2D>("NormalMaterial");
         _wallClingMaterial = Resources.Load<PhysicsMaterial2D>("WallClingMaterial");
         SetPhysMaterial();
+
+        _weapon = new PlayerWeapon(player.GetComponentInChildren<Grid>().transform);
 
         _currentSpeed = _defaultSpeed;
         _isGrounded = true;
@@ -156,6 +163,23 @@ public class PlayerModelPhys
                     StartAtPosition(_destination);
                 }
             }
+
+        if (_isShooting)
+        {
+            if (_currentShootingCD > 0)
+                _currentShootingCD -= Time.deltaTime;
+            else
+            {
+                _isShooting = false;
+
+                if (!_isGrounded)
+                    _currentForm.StartFallAnimation();
+                else if (_isMoving)
+                    _currentForm.StartRunAnimation();
+                else
+                    _currentForm.StartIdleAnimation();
+            }
+        }
 
         if (_isChangingFormPhaseOne && _currentForm.IsAnimationDone)
             ChangingFormPhaseTwo();
@@ -297,7 +321,7 @@ public class PlayerModelPhys
                 _isMoving = false;
             }
 
-            _player.velocity = _player.velocity.Change(x: newVelocity);
+            _player.velocity = _player.velocity.Change(x: newVelocity + (_contactsPoller.IsGrounded ? _contactsPoller.GroundVelocity.x : 0));
         }
     }
 
@@ -305,7 +329,8 @@ public class PlayerModelPhys
     {
         if (_isReady)
         {
-            if (_player.velocity.y < _fallThreshold && !_isFalling)
+            if (_player.velocity.y < _fallThreshold && ((!_isFalling) ||
+                (_isGrounded && !_contactsPoller.IsGrounded)))
             {
                 Fall();
             }
@@ -440,6 +465,7 @@ public class PlayerModelPhys
         {
             _isHurt = true;
             _isReady = false;
+            _isShooting = false;
             if (_currentForm.CanCrouch && _isCrouching)
             {
                 _currentForm.StartHurtCrouchAnimation();
@@ -477,13 +503,27 @@ public class PlayerModelPhys
             _currentForm.StartIdleAnimation();
     }
 
-    public void SetSpikeController(SpikeController spikeController)
+    public void Shoot()
     {
-        spikeController.Contact += _health.TakeDamage;
+        if (_isReady && _currentForm.CanShoot && !_isShooting && !_isWallClinging)
+        {
+            if (!_isGrounded)
+                _currentForm.StartShootJumpAnimation();
+            else if(_isMoving)
+                _currentForm.StartShootRunAnimation();
+            else
+                _currentForm.StartShootStandAnimation();
+
+            _weapon.Shoot(_player.transform.localScale.x);
+
+            _isShooting = true;
+            _currentShootingCD = _shootingCD;
+        }
     }
 
-    public void SetCannonController(CannonController cannonController)
+    public void RegisterHazards(HazardController hazardController, CannonController cannonController)
     {
+        hazardController.RegisterTarget(_health);
         cannonController.RegisterTarget(_health);
     }
 

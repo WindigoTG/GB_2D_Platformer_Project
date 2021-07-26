@@ -51,9 +51,13 @@ public class SpriteAnimatorController : IDisposable, IUpdateable
             animation.IsActive = true;
             if (animation.Track != track)
             {
+
+                if (!(track == Track.ShootRun && animation.Track == Track.Run) &&
+                    !(track == Track.Run && animation.Track == Track.ShootRun))
+                    animation.Counter = 0;
+
                 animation.Track = track;
                 animation.Sprites = _config.Sequences.Find(sequence => sequence.Track == track).Sprites;
-                animation.Counter = 0;
             }
         }
         else

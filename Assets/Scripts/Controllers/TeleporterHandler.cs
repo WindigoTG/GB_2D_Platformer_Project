@@ -2,11 +2,9 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TeleporterHandler : MonoBehaviour
+public class TeleporterHandler
 {
-    [SerializeField] Transform _startTeleporter;
-    [SerializeField] List<PairedTeleporterData> _teleporters;
-    [SerializeField] Transform _finishTeleporter;
+    private TeleporterData _teleporterData;
 
     private SpriteAnimatorController _animatorController;
 
@@ -14,47 +12,32 @@ public class TeleporterHandler : MonoBehaviour
 
     public event Action Finish;
 
-    public static TeleporterHandler Instance { get; private set; }
-
-    void Awake()
+    public TeleporterHandler(TeleporterData teleporterData, SpriteAnimatorController animationController)
     {
-        if (Instance == null)
-            Instance = this;
-        else
-            Destroy(gameObject);
-    }
-
-    private void Start()
-    {
-        if (_animatorController != null)
-        {
-            _animatorController.StartAnimation(_startTeleporter.GetComponent<SpriteRenderer>(), Track.Idle, true, 10f);
-            _animatorController.StartAnimation(_finishTeleporter.GetComponent<SpriteRenderer>(), Track.Idle, true, 10f);
-            for (int i = 0; i < _teleporters.Count; i++)
-            {
-                _animatorController.StartAnimation(_teleporters[i].FirstSpriteRenderer.GetComponent<SpriteRenderer>(), Track.Idle, true, 10f);
-                _animatorController.StartAnimation(_teleporters[i].SecondSpriteRenderer.GetComponent<SpriteRenderer>(), Track.Idle, true, 10f);
-            }
-        }
-    }
-
-    public void SetAnimationController(SpriteAnimatorController animationController)
-    {
+        _teleporterData = teleporterData;
         _animatorController = animationController;
+
+        _animatorController.StartAnimation(_teleporterData.StartTeleporter.GetComponent<SpriteRenderer>(), Track.Idle, true, 10f);
+        _animatorController.StartAnimation(_teleporterData.FinishTeleporter.GetComponent<SpriteRenderer>(), Track.Idle, true, 10f);
+        for (int i = 0; i < _teleporterData.Teleporters.Count; i++)
+        {
+            _animatorController.StartAnimation(_teleporterData.Teleporters[i].FirstSpriteRenderer.GetComponent<SpriteRenderer>(), Track.Idle, true, 10f);
+            _animatorController.StartAnimation(_teleporterData.Teleporters[i].SecondSpriteRenderer.GetComponent<SpriteRenderer>(), Track.Idle, true, 10f);
+        }
     }
 
     public Transform GetDestination(Transform teleporter)
     {
-        if (_startTeleporter == teleporter)
+        if (_teleporterData.StartTeleporter == teleporter)
             return null;
-        if (_finishTeleporter == teleporter)
+        if (_teleporterData.FinishTeleporter == teleporter)
         {
             Finish?.Invoke();
             return null;
         }
-        for (int i = 0; i<_teleporters.Count; i++)
+        for (int i = 0; i< _teleporterData.Teleporters.Count; i++)
         {
-            var pair = _teleporters[i].GetPair(teleporter);
+            var pair = _teleporterData.Teleporters[i].GetPair(teleporter);
             if (pair != null)
             {
                 _lastTeleporterPair = i;
@@ -67,36 +50,36 @@ public class TeleporterHandler : MonoBehaviour
 
     public bool IsTeleporterUnlocked(Transform teleporter)
     {
-        var pair = _teleporters[_lastTeleporterPair].GetPair(teleporter);
+        var pair = _teleporterData.Teleporters[_lastTeleporterPair].GetPair(teleporter);
         if (pair == null)
-            for (int i = 0; i < _teleporters.Count; i++)
+            for (int i = 0; i < _teleporterData.Teleporters.Count; i++)
             {
-                pair = _teleporters[i].GetPair(teleporter);
+                pair = _teleporterData.Teleporters[i].GetPair(teleporter);
                 if (pair != null)
                     _lastTeleporterPair = i;
             }
         if (pair != null)
-            return _teleporters[_lastTeleporterPair].IsUnlocked;
+            return _teleporterData.Teleporters[_lastTeleporterPair].IsUnlocked;
         else
             return false;
     }
 
     public void Unlock(Transform teleporter)
     {
-        var pair = _teleporters[_lastTeleporterPair].GetPair(teleporter);
+        var pair = _teleporterData.Teleporters[_lastTeleporterPair].GetPair(teleporter);
         if (pair == null)
-            for (int i = 0; i < _teleporters.Count; i++)
+            for (int i = 0; i < _teleporterData.Teleporters.Count; i++)
             {
-                pair = _teleporters[i].GetPair(teleporter);
+                pair = _teleporterData.Teleporters[i].GetPair(teleporter);
                 if (pair != null)
                     _lastTeleporterPair = i;
             }
         if (pair != null)
-            _teleporters[_lastTeleporterPair].SetUnlocked();
+            _teleporterData.Teleporters[_lastTeleporterPair].SetUnlocked();
     }
 
     public Transform GetStart()
     {
-        return _startTeleporter;
+        return _teleporterData.StartTeleporter;
     }
 }

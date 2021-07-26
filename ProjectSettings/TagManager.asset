@@ -7,6 +7,9 @@ TagManager:
   - Teleporter
   - ECrystal
   - Spike
+  - LightningTrap
+  - SpinningBladeTrap
+  - MovingPlatform
   layers:
   - Default
   - TransparentFX
@@ -21,8 +24,8 @@ TagManager:
   - Ground
   - Wall
   - Player
-  - 
-  - 
+  - Trap
+  - PlayerBullet
   - 
   - 
   - 
