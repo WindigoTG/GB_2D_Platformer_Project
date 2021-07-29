@@ -1,0 +1,582 @@
+fileFormatVersion: 2
+guid: 34c04181d11a9844db6c2ab79a5f6c76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2057350792239010755
+    second: mmzx_effectsandparticles_0
+  - first:
+      213: 5345087196574565277
+    second: mmzx_effectsandparticles_1
+  - first:
+      213: 3514958459188849448
+    second: mmzx_effectsandparticles_2
+  - first:
+      213: -1263311574745212935
+    second: mmzx_effectsandparticles_3
+  - first:
+      213: -7604075236307544912
+    second: mmzx_effectsandparticles_4
+  - first:
+      213: -1254761715273836758
+    second: mmzx_effectsandparticles_5
+  - first:
+      213: 8284301605540604989
+    second: mmzx_effectsandparticles_6
+  - first:
+      213: 8699346832393824015
+    second: mmzx_effectsandparticles_7
+  - first:
+      213: -3131609892143789095
+    second: mmzx_effectsandparticles_8
+  - first:
+      213: 6166839455079616032
+    second: mmzx_effectsandparticles_9
+  - first:
+      213: 9129788115856993165
+    second: mmzx_effectsandparticles_10
+  - first:
+      213: -7284128791828453157
+    second: mmzx_effectsandparticles_11
+  - first:
+      213: -7636969900068866534
+    second: mmzx_effectsandparticles_12
+  - first:
+      213: 5633975619294524042
+    second: mmzx_effectsandparticles_13
+  - first:
+      213: 4787719261563514636
+    second: mmzx_effectsandparticles_14
+  - first:
+      213: 2845421435178114724
+    second: mmzx_effectsandparticles_15
+  - first:
+      213: -3846312237711774292
+    second: mmzx_effectsandparticles_16
+  - first:
+      213: -7578380136450558173
+    second: mmzx_effectsandparticles_17
+  - first:
+      213: -1834382456804743957
+    second: mmzx_effectsandparticles_18
+  - first:
+      213: 1724393205323497828
+    second: mmzx_effectsandparticles_19
+  - first:
+      213: -3936481378758384384
+    second: mmzx_effectsandparticles_20
+  - first:
+      213: 508588425154141725
+    second: mmzx_effectsandparticles_21
+  - first:
+      213: -4029413877913366030
+    second: mmzx_effectsandparticles_22
+  - first:
+      213: 7562570714026631240
+    second: mmzx_effectsandparticles_23
+  - first:
+      213: -5364086016120549233
+    second: mmzx_effectsandparticles_24
+  - first:
+      213: 3866165955513273766
+    second: mmzx_effectsandparticles_25
+  - first:
+      213: -8740545002746811996
+    second: mmzx_effectsandparticles_26
+  - first:
+      213: -8491417768542093230
+    second: mmzx_effectsandparticles_28
+  - first:
+      213: 8394498056431709987
+    second: mmzx_effectsandparticles_29
+  - first:
+      213: 5006290845911002749
+    second: mmzx_effectsandparticles_30
+  - first:
+      213: -1405568514284776463
+    second: mmzx_effectsandparticles_21
+  - first:
+      213: -1358999539637519223
+    second: mmzx_effectsandparticles_33
+  - first:
+      213: -6977094396669234692
+    second: mmzx_effectsandparticles_35
+  - first:
+      213: 3132351146658521165
+    second: mmzx_effectsandparticles_36
+  - first:
+      213: 5729137118986147169
+    second: mmzx_effectsandparticles_37
+  - first:
+      213: 6167591664881505479
+    second: mmzx_effectsandparticles_39
+  - first:
+      213: 3869287998978305379
+    second: mmzx_effectsandparticles_40
+  - first:
+      213: -6481514894112489012
+    second: mmzx_effectsandparticles_22
+  - first:
+      213: 5948825334267104127
+    second: mmzx_effectsandparticles_46
+  - first:
+      213: -6276479427121721782
+    second: mmzx_effectsandparticles_47
+  - first:
+      213: -6641745888705612543
+    second: mmzx_effectsandparticles_48
+  - first:
+      213: -7622681502737480412
+    second: mmzx_effectsandparticles_54
+  - first:
+      213: 1673317960363954075
+    second: mmzx_effectsandparticles_57
+  - first:
+      213: 6866565172474009994
+    second: mmzx_effectsandparticles_58
+  - first:
+      213: 271469306834906515
+    second: mmzx_effectsandparticles_59
+  - first:
+      213: -4760738510788925797
+    second: mmzx_effectsandparticles_60
+  - first:
+      213: -6182557725762906405
+    second: mmzx_effectsandparticles_63
+  - first:
+      213: -7880640109056564208
+    second: mmzx_effectsandparticles_68
+  - first:
+      213: 4467451288061292657
+    second: mmzx_effectsandparticles_70
+  - first:
+      213: -2415266875518533206
+    second: mmzx_effectsandparticles_71
+  - first:
+      213: 7124353777597847797
+    second: mmzx_effectsandparticles_72
+  - first:
+      213: 9158113064698321112
+    second: mmzx_effectsandparticles_73
+  - first:
+      213: -3673671598178467925
+    second: mmzx_effectsandparticles_74
+  - first:
+      213: 1422852564821844092
+    second: mmzx_effectsandparticles_75
+  - first:
+      213: 152039085234401121
+    second: mmzx_effectsandparticles_76
+  - first:
+      213: -6872230682239471863
+    second: mmzx_effectsandparticles_77
+  - first:
+      213: 550169184516963856
+    second: mmzx_effectsandparticles_78
+  - first:
+      213: -1684881938152137611
+    second: mmzx_effectsandparticles_79
+  - first:
+      213: -2016310802628724438
+    second: mmzx_effectsandparticles_80
+  - first:
+      213: 913508310638967992
+    second: mmzx_effectsandparticles_81
+  - first:
+      213: 2791614256586580471
+    second: mmzx_effectsandparticles_82
+  - first:
+      213: 1209500175690724111
+    second: mmzx_effectsandparticles_83
+  - first:
+      213: 2400866066214189266
+    second: mmzx_effectsandparticles_84
+  - first:
+      213: -3296062383363443643
+    second: mmzx_effectsandparticles_85
+  - first:
+      213: -7801859407176175002
+    second: mmzx_effectsandparticles_86
+  - first:
+      213: 8657872172286365444
+    second: mmzx_effectsandparticles_87
+  - first:
+      213: -6897149548653251781
+    second: mmzx_effectsandparticles_88
+  - first:
+      213: -9185138122576694463
+    second: mmzx_effectsandparticles_89
+  - first:
+      213: -5590022295741464905
+    second: mmzx_effectsandparticles_90
+  - first:
+      213: 6542522856314818552
+    second: mmzx_effectsandparticles_91
+  - first:
+      213: -3644512350217847418
+    second: mmzx_effectsandparticles_92
+  - first:
+      213: -7548311244274458523
+    second: mmzx_effectsandparticles_93
+  - first:
+      213: -2528074005242719302
+    second: mmzx_effectsandparticles_94
+  - first:
+      213: 3094071843975912782
+    second: mmzx_effectsandparticles_95
+  - first:
+      213: -4635130804738306298
+    second: mmzx_effectsandparticles_101
+  - first:
+      213: -6404981570789611931
+    second: mmzx_effectsandparticles_102
+  - first:
+      213: -2545771143529643025
+    second: mmzx_effectsandparticles_103
+  - first:
+      213: -2072992446997555697
+    second: mmzx_effectsandparticles_104
+  - first:
+      213: -5890430218179622216
+    second: mmzx_effectsandparticles_105
+  - first:
+      213: -3237825179005689961
+    second: mmzx_effectsandparticles_106
+  - first:
+      213: -8072748431322173411
+    second: mmzx_effectsandparticles_109
+  - first:
+      213: -6221981584585112235
+    second: mmzx_effectsandparticles_110
+  - first:
+      213: -881540271692788314
+    second: mmzx_effectsandparticles_114
+  - first:
+      213: -7497581971739132538
+    second: mmzx_effectsandparticles_115
+  - first:
+      213: -372569306785507477
+    second: mmzx_effectsandparticles_122
+  - first:
+      213: 6161413601420052663
+    second: mmzx_effectsandparticles_125
+  - first:
+      213: 87641475217609506
+    second: mmzx_effectsandparticles_126
+  - first:
+      213: 8862122318912362821
+    second: mmzx_effectsandparticles_127
+  - first:
+      213: 4139917149760437841
+    second: mmzx_effectsandparticles_128
+  - first:
+      213: -1000701231783085107
+    second: mmzx_effectsandparticles_27
+  - first:
+      213: -6080350486459680588
+    second: mmzx_effectsandparticles_32
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 25
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_23
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84064560ff5a3f860800000000000000
+      internalID: 7562570714026631240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_24
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f809e704030fe85b0800000000000000
+      internalID: -5364086016120549233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 377
+        width: 32
+        height: 37
+      alignment: 9
+      pivot: {x: 0.5, y: 0.43}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adc315e37167a530800000000000000
+      internalID: 3866165955513273766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_26
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 377
+        width: 33
+        height: 34
+      alignment: 9
+      pivot: {x: 0.515, y: 0.47}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a9e5ff11a853b680800000000000000
+      internalID: -8740545002746811996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_28
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 377
+        width: 34
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.44}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250cb9a678c682a80800000000000000
+      internalID: -8491417768542093230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_29
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 377
+        width: 35
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.42}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32fa151a18f3f7470800000000000000
+      internalID: 8394498056431709987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_21
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 382
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f3159e12ea6e7ce0800000000000000
+      internalID: -1405568514284776463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_33
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 377
+        width: 35
+        height: 29
+      alignment: 9
+      pivot: {x: 0.5, y: 0.37}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98c7cf57e1dd32de0800000000000000
+      internalID: -1358999539637519223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mmzx_effectsandparticles_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 390
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc1850a5b880d06a0800000000000000
+      internalID: -6481514894112489012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

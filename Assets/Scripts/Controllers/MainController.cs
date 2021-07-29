@@ -15,6 +15,9 @@ public class MainController : MonoBehaviour
     [SerializeField] Transform[] _cannonPositions;
     [Space]
     [SerializeField] TeleporterData _teleporterData;
+    [Space]
+    [SerializeField] PatrolData[] _patrolData;
+    [SerializeField] PatrolData[] _smartPatrolData;
 
     List<IUpdateable> _updatables = new List<IUpdateable>();
     List<IUpdateableFixed> _updatablesFixed = new List<IUpdateableFixed>();
@@ -106,7 +109,18 @@ public class MainController : MonoBehaviour
         HazardController hazardController = new HazardController(_playerControllerPhys.PlayerTransform, this);
         _updatables.Add(hazardController);
 
-        _playerControllerPhys.RegisterHazards(hazardController, cannonController);
+
+        SpriteAnimatorController tellyAnimationController = new SpriteAnimatorController(
+                                                                Resources.Load<SpriteAnimationsConfig>("TellyAnimationsConfig"));
+        _updatables.Add(tellyAnimationController);
+        SpriteAnimatorController explosionAnimationController = new SpriteAnimatorController(
+                                                                 Resources.Load<SpriteAnimationsConfig>("ExplosionAnimationsConfig"));
+        _updatables.Add(explosionAnimationController);
+        AIController AIController = new AIController(_patrolData, _smartPatrolData, tellyAnimationController, explosionAnimationController, _playerControllerPhys.PlayerTransform);
+        _updatablesFixed.Add(AIController);
+
+
+        _playerControllerPhys.RegisterHazards(hazardController, cannonController, AIController);
 
         FindObjectOfType<CinemachineVirtualCamera>().Follow = _playerControllerPhys.PlayerTransform;
 

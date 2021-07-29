@@ -70,9 +70,9 @@ public class PlayerControllerPhys : IUpdateable, IUpdateableFixed
         _crystalCount++;
     }
 
-    public void RegisterHazards(HazardController hazardController, CannonController cannonController)
+    public void RegisterHazards(HazardController hazardController, CannonController cannonController, AIController AIController)
     {
-        _player.RegisterHazards(hazardController, cannonController);
+        _player.RegisterHazards(hazardController, cannonController, AIController);
     }
 
     private void GetToFinish()
