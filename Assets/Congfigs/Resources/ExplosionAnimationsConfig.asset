@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a85d17dbe599c5499ad02d97adf16f4, type: 3}
+  m_Name: ExplosionAnimationsConfig
+  m_EditorClassIdentifier: 
+  Sequences:
+  - Track: 0
+    Sprites:
+    - {fileID: 508588425154141725, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}
+    - {fileID: -4029413877913366030, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}
+    - {fileID: 7562570714026631240, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}
+    - {fileID: -5364086016120549233, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}
+    - {fileID: 3866165955513273766, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}
+    - {fileID: -8740545002746811996, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}
+    - {fileID: -8491417768542093230, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}
+    - {fileID: 8394498056431709987, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}
+    - {fileID: -1358999539637519223, guid: 34c04181d11a9844db6c2ab79a5f6c76, type: 3}

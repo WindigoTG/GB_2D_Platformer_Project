@@ -195,14 +195,8 @@ public class PlayerModelPhys
         VerticalCheck();
     }
 
-    //ѕроверка на наличие потолка над персонажем, чтобы определить, хватает ли ему высоты встать в полный рост из приседани€
-    //ƒелаетс€ рейкастом, а не через проверку коллизий сверху потом, что проверка на коллизии будет работать только
-    //с потолком филигранно выверенной высоты, строго по коллайдеру.
-    //ѕроверка рейкастом позвол€ет персонажу заползать в туннели произвольной высоты, ниже его роста.
     private bool CheckForCeiling()
     {
-        //ѕровер€ем по тому же принципу, по которому работала проверка земли у нефизического персонажа
-        //—начала провер€ем центр
         _raycastStart = new Vector2(_collider.bounds.center.x, _collider.bounds.max.y);
         _raycastEnd = new Vector2(_collider.bounds.center.x, _player.transform.position.y + _heightDifference);
         _raycastDirection = _raycastEnd - _raycastStart;
@@ -211,7 +205,6 @@ public class PlayerModelPhys
 
         if (hit.collider == null)
         {
-            //≈сли центр свободен, на вс€кий случай провер€ем левый край
             _raycastStart = new Vector2(_collider.bounds.min.x, _collider.bounds.max.y);
             _raycastEnd = new Vector2(_collider.bounds.min.x, _collider.bounds.max.y + _heightDifference);
             _raycastDirection = _raycastEnd - _raycastStart;
@@ -220,7 +213,6 @@ public class PlayerModelPhys
 
             if (hit.collider == null)
             {
-                //» правый
                 _raycastStart = new Vector2(_collider.bounds.max.x, _collider.bounds.max.y);
                 _raycastEnd = new Vector2(_collider.bounds.max.x, _collider.bounds.max.y + _heightDifference);
                 _raycastDirection = _raycastEnd - _raycastStart;
@@ -521,10 +513,11 @@ public class PlayerModelPhys
         }
     }
 
-    public void RegisterHazards(HazardController hazardController, CannonController cannonController)
+    public void RegisterHazards(HazardController hazardController, CannonController cannonController, AIController AIController)
     {
         hazardController.RegisterTarget(_health);
         cannonController.RegisterTarget(_health);
+        AIController.RegisterTarget(_health);
     }
 
     public void Finish()
