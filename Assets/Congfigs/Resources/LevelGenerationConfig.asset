@@ -46,6 +46,7 @@ MonoBehaviour:
     _verticalTile: {fileID: 11400000, guid: ff5d8ce795eab18488f499f2ecebd910, type: 2}
     _horisontalTile: {fileID: 11400000, guid: 20fa98e547ac7704cab515a9cd320299, type: 2}
     _standAloneTile: {fileID: 11400000, guid: 782f20b7a18979d41a30a795c9601294, type: 2}
+  _layerChangeDepth: 0.5
   _mapWidth: 200
   _mapHeight: 200
   __smoothFactor: 5

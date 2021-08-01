@@ -9,6 +9,8 @@ namespace LevelGeneration
 
         [SerializeField] TilePalette _lowerLevelpalette;
 
+        [SerializeField] [Range(0, 1)] float _layerChangeDepth;
+
         [SerializeField] int _mapWidth;
 
         [SerializeField] int _mapHeight;
@@ -28,6 +30,8 @@ namespace LevelGeneration
         public TilePalette UpperLevelPalette => _upperLevelpalette;
 
         public TilePalette LowerLevelPalette => _lowerLevelpalette;
+
+        public float LayerChangeDepth => _layerChangeDepth;
     }
 }
 

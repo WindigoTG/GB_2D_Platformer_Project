@@ -111,7 +111,7 @@ namespace LevelGeneration
             {
                 for (var y = 0; y < _levelConfig.MapHeight; y++)
                 {
-                    if (y < _levelConfig.MapHeight / 2)
+                    if (y < _levelConfig.MapHeight * _levelConfig.LayerChangeDepth)
                         _currentPalette = _levelConfig.LowerLevelPalette;
                     else
                         _currentPalette = _levelConfig.UpperLevelPalette;
