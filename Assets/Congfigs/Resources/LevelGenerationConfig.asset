@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdc1a4ea7e364a94fbb4357def527577, type: 3}
+  m_Name: LevelGenerationConfig
+  m_EditorClassIdentifier: 
+  _upperLevelpalette:
+    _mainTile: {fileID: 11400000, guid: d3bd79718a576d346aebd7366a15dc49, type: 2}
+    _topTile: {fileID: 11400000, guid: 100bf214019d4654db11e1e8c0b09856, type: 2}
+    _bottomTile: {fileID: 11400000, guid: 73ce1ab2c06f3af4aba6c39fbf789c59, type: 2}
+    _leftTile: {fileID: 11400000, guid: 7a6a59294d7a9e94394dde32eba36635, type: 2}
+    _rightTile: {fileID: 11400000, guid: d3578bfc571d35e4d93f5ec6149b732c, type: 2}
+    _topLeftTile: {fileID: 11400000, guid: 370c897d0b0886a4ebd101ef40343ab4, type: 2}
+    _topRightTile: {fileID: 11400000, guid: 4a29d794a3f3d11499a9e0344ea7ab57, type: 2}
+    _bottomLeftTile: {fileID: 11400000, guid: b4bcfd86387b3194eab778c36e93807b, type: 2}
+    _bottomRightTile: {fileID: 11400000, guid: c538f1709e729d1488bbe33020f42925, type: 2}
+    _topEndTile: {fileID: 11400000, guid: 92167d633f8db8b43927565caae065fd, type: 2}
+    _bottomEndTile: {fileID: 11400000, guid: ea2fdd347d09d6c47a47059a41a92e32, type: 2}
+    _leftEndTile: {fileID: 11400000, guid: d038cd9341037944f8e5cafe2458f1a6, type: 2}
+    _rightEndTile: {fileID: 11400000, guid: 10b1939081fbb9046955bd428979aa5b, type: 2}
+    _verticalTile: {fileID: 11400000, guid: 81a1b235f3959d745a0a585122bc2a09, type: 2}
+    _horisontalTile: {fileID: 11400000, guid: bda8642ff1c8d4342b31b575d687d9d4, type: 2}
+    _standAloneTile: {fileID: 11400000, guid: a491db8de465f2040bf6c196626bca49, type: 2}
+  _lowerLevelpalette:
+    _mainTile: {fileID: 11400000, guid: c3d5cfe6ec27c884cb062bbd7b24b5db, type: 2}
+    _topTile: {fileID: 11400000, guid: f207c17f04138cc40a8b206bcd33f852, type: 2}
+    _bottomTile: {fileID: 11400000, guid: 3bf9d5c6bf397534b91fa405ad7b8e7d, type: 2}
+    _leftTile: {fileID: 11400000, guid: 694a8c90c89ba3f40bf3b59c43fa9f72, type: 2}
+    _rightTile: {fileID: 11400000, guid: 319b66f9c1138fc4392120ff894cbe14, type: 2}
+    _topLeftTile: {fileID: 11400000, guid: 8f25488c08e374943960d52657d2ae03, type: 2}
+    _topRightTile: {fileID: 11400000, guid: 5ae69481faeba9c41a564c775256d330, type: 2}
+    _bottomLeftTile: {fileID: 11400000, guid: 24365fe6f2a99d7429c5e4839c42ecae, type: 2}
+    _bottomRightTile: {fileID: 11400000, guid: c4aea00e0e26e9f468ba13970817c7e8, type: 2}
+    _topEndTile: {fileID: 11400000, guid: b14468e5543fa97408dadf22ae1f4c44, type: 2}
+    _bottomEndTile: {fileID: 11400000, guid: 33726fcd8af6b6040ab47435e7ef4a7e, type: 2}
+    _leftEndTile: {fileID: 11400000, guid: 491c8c06a72416f4ba61b62c68288e48, type: 2}
+    _rightEndTile: {fileID: 11400000, guid: 398299cb5bc535744bf18ddb7a18e436, type: 2}
+    _verticalTile: {fileID: 11400000, guid: ff5d8ce795eab18488f499f2ecebd910, type: 2}
+    _horisontalTile: {fileID: 11400000, guid: 20fa98e547ac7704cab515a9cd320299, type: 2}
+    _standAloneTile: {fileID: 11400000, guid: 782f20b7a18979d41a30a795c9601294, type: 2}
+  _mapWidth: 200
+  _mapHeight: 200
+  __smoothFactor: 5
+  _randomFillPercent: 50

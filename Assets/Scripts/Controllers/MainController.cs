@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 #if UNITY_EDITOR
 using UnityEditor;
+using LevelGeneration;
 #endif
 
 public class MainController : MonoBehaviour
@@ -28,6 +29,9 @@ public class MainController : MonoBehaviour
     private void Awake()
     {
         InitializeUpdatables();
+
+
+        LevelGenerator levelGenerator = new LevelGenerator(Resources.Load<LevelGenerationConfig>("LevelGenerationConfig"));
     }
 
     private void Update()
@@ -127,6 +131,7 @@ public class MainController : MonoBehaviour
         _playerControllerPhys.Player.End += End;
 
         StartFans();
+
     }
 
     public void AddUpdatable(IUpdateable updatable)

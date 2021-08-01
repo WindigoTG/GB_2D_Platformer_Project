@@ -228,7 +228,7 @@ public class PlayerModelPhys
     #region Form Change
     public void ChangeForm()
     {
-        if (_isReady && _isGrounded && !_isChangingFormPhaseOne && !_isChangingFormPhaseTwo)
+        if (_isReady && _isGrounded && !_isCrouching && !_isChangingFormPhaseOne && !_isChangingFormPhaseTwo)
         {
             ResetState();
             _currentForm.StartHenshinPhaseOneAnimation();
