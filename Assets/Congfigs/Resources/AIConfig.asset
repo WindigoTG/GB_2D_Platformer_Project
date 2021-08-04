@@ -20,4 +20,4 @@ MonoBehaviour:
       _waypoints: []
     Damage: 1
     RespawnTime: 3
-    SqrAwarenessRadius: 75
+    SqrAwarenessRadius: 50

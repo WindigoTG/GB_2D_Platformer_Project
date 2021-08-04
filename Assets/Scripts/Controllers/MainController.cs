@@ -19,6 +19,10 @@ public class MainController : MonoBehaviour
     [Space]
     [SerializeField] PatrolData[] _patrolData;
     [SerializeField] PatrolData[] _smartPatrolData;
+    [Space]
+    [SerializeField] QuestsConfigurator _questConfigurator;
+    [Space]
+    [SerializeField] int _exitQuestChainId;
 
     List<IUpdateable> _updatables = new List<IUpdateable>();
     List<IUpdateableFixed> _updatablesFixed = new List<IUpdateableFixed>();
@@ -30,8 +34,14 @@ public class MainController : MonoBehaviour
     {
         InitializeUpdatables();
 
+        var questChain = _questConfigurator.GetQuestChain(_exitQuestChainId);
+        if (questChain != null)
+        {
+            DisableExit();
+            questChain.Completed += EnableExit;
+        }
 
-        LevelGenerator levelGenerator = new LevelGenerator(Resources.Load<LevelGenerationConfig>("LevelGenerationConfig"));
+        new LevelGenerator(Resources.Load<LevelGenerationConfig>("LevelGenerationConfig"));
     }
 
     private void Update()
@@ -132,6 +142,8 @@ public class MainController : MonoBehaviour
 
         StartFans();
 
+        _questConfigurator.Initialize(_playerControllerPhys.PlayerTransform);
+        _updatablesFixed.Add(_questConfigurator);
     }
 
     public void AddUpdatable(IUpdateable updatable)
@@ -158,5 +170,15 @@ public class MainController : MonoBehaviour
         {
             fanAnimationController.StartAnimation(fan.GetComponent<SpriteRenderer>(), Track.Idle, true, 10);
         }
+    }
+
+    void DisableExit()
+    {
+        _teleporterData.FinishTeleporter.gameObject.SetActive(false);
+    }
+
+    void EnableExit()
+    {
+        _teleporterData.FinishTeleporter.gameObject.SetActive(true);
     }
 }

@@ -4,7 +4,7 @@ public class LemonView
 {
     Rigidbody2D _rigidBody;
 
-    float _lifetime = 2f;
+    float _lifetime = 0.9f;
     float _firedAt;
 
     public LemonView(GameObject lemon)
